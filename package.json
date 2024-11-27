@@ -1,0 +1,12 @@
+{
+  "name": "animal-crossing-electron",
+  "version": "1.0.0",
+  "description": "Aplicación de escritorio para checklist de Animal Crossing",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^33.2.0"
+  }
+}

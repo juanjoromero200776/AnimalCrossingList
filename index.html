@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Crossing Checklist</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Logo en el centro -->
+  <div class="logo">
+    <a href="#" onclick="showMainMenu()">
+      <img src="images/animal_crossing_logo.png" alt="Animal Crossing Logo">
+    </a>
+  </div>
+
+<!-- Menú de navegación -->
+<nav class="navbar">
+    <ul>
+      <!-- Menú de juegos -->
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Games</a>
+        <div class="dropdown-content">
+            <a href="#" onclick="selectGameAndLoadDashboard('gamecube')">Gamecube</a>
+            <a href="#" onclick="selectGameAndLoadDashboard('wild_world')">Wild World</a>
+            <a href="#" onclick="selectGameAndLoadDashboard('city_folk')">City Folk</a>
+            <a href="#" onclick="selectGameAndLoadDashboard('new_leaf')">New Leaf</a>
+            <a href="#" onclick="selectGameAndLoadDashboard('new_horizons')">New Horizons</a>
+            <a href="#" onclick="exportProgress()">Export Progress</a>
+            <a href="#" onclick="document.getElementById('importFile').click()">Import Progress</a>
+        </div>
+    </li>
+      <!-- Input oculto para importar archivo -->
+      <input type="file" id="importFile" style="display: none;" accept=".json" onchange="importProgress(event)">
+  
+  
+      <!-- Menú de categorías, oculto inicialmente -->
+      <li><a href="#" onclick="showCategory('fish')" class="category-link" style="display: none;">Fish</a></li>
+      <li><a href="#" onclick="showCategory('bugs')" class="category-link" style="display: none;">Bugs</a></li>
+      <li><a href="#" onclick="showCategory('fossils')" class="category-link" style="display: none;">Fossils</a></li>
+      <li><a href="#" onclick="showCategory('gyroids')" class="category-link" style="display: none;">Gyroids</a></li>
+      <li><a href="#" onclick="showCategory('gyroids')" class="category-link" style="display: none;">Fossisls</a></li>
+      <li><a href="#" onclick="showCategory('furniture')" class="category-link" style="display: none;">Furniture</a></li>
+  
+      <!-- Menú desplegable de "Others" -->
+      <li class="dropdown">
+        <a href="#" class="dropbtn category-link" style="display: none;">Others</a>
+        <div class="dropdown-content">
+          <a href="#" onclick="showCategory('carpets')">Carpets</a>
+          <a href="#" onclick="showCategory('wallpaper')">Wallpaper</a>
+          <a href="#" onclick="showCategory('stationary')">Stationary</a>
+          <a href="#" onclick="showCategory('songs')">Songs</a>
+          <a href="#" onclick="showCategory('fruits')">Fruits</a>
+          <a href="#" onclick="showCategory('flowers')">Flowers</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  
+
+  <!-- Contenedor principal -->
+  <div class="container">
+    <!-- Barra de búsqueda -->
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Buscar...">
+    </div>
+
+    <!-- Botones para seleccionar el juego al que se quiere imprimir el dashboard -->
+    <div class="game-buttons">
+      <button onclick="selectGameAndLoadDashboard('gamecube')">
+          <img src="images/animal_crossing.png" alt="Gamecube Dashboard">
+      </button>
+      <button onclick="selectGameAndLoadDashboard('wild_world')">
+          <img src="images/wild_world.png" alt="Wild World Dashboard">
+      </button>
+      <button onclick="selectGameAndLoadDashboard('city_folk')">
+          <img src="images/city_folk.png" alt="City Folk Dashboard">
+      </button>
+      <button onclick="selectGameAndLoadDashboard('new_leaf')">
+          <img src="images/new_leaf.png" alt="New Leaf Dashboard">
+      </button>
+      <button onclick="selectGameAndLoadDashboard('new_horizons')">
+          <img src="images/new_horizons.png" alt="New Horizons Dashboard">
+      </button>
+  </div>
+  
+
+    <!-- Dashboard container -->
+<div id="dashboard" style="display: none;">
+    <h2>Dashboard de Progreso - <span id="game-title"></span></h2>
+
+    <div>
+      <h3>Overall Progress</h3>
+      <canvas id="overallChart" class="chart"></canvas>
+    </div>
+  
+    <div>
+      <h3>Furniture Progress</h3>
+      <canvas id="furnitureChart" class="chart"></canvas>
+    </div>
+  
+    <div>
+      <h3>Fish Progress</h3>
+      <canvas id="fishChart" class="chart"></canvas>
+    </div>
+  
+    <div>
+      <h3>Bugs Progress</h3>
+      <canvas id="bugsChart" class="chart"></canvas>
+    </div>
+  
+    <div>
+      <h3>Gyroids Progress</h3>
+      <canvas id="gyroidsChart" class="chart"></canvas>
+    </div>
+  
+    <div>
+      <h3>Wallpapers Progress</h3>
+      <canvas id="wallpapersChart" class="chart"></canvas>
+    </div>
+</div>
+<div id="customTooltip" style="position: absolute; pointer-events: none; background: rgba(0, 0, 0, 0.8); color: #fff; padding: 10px; border-radius: 8px; font-size: 14px; display: none; z-index: 1000;"></div>
+
+
+  
+
+    <!-- Sección del checklist -->
+    <div id="checklist">
+      <h2>Selecciona un juego para ver el checklist.</h2>
+      <p>Aquí se mostrarán los ítems del juego seleccionado.</p>
+    </div>
+  </div>
+  <button id="back-to-top" onclick="scrollToTop()">⬆️ Back to Top</button>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

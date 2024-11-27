@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/background.jpg");
+    background-color: #f7e7b4; /* Fondo color pastel */
+    background-size: cover;        /* Hace que la imagen cubra toda la pantalla */
+    background-position: center;    /* Centra la imagen en la pantalla */
+    background-repeat: no-repeat;   /* Evita que la imagen se repita */
+    color: #333;                    /* Color de texto para asegurarse de que sea legible */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  
+
+/* Centrar el logo en la parte superior */
+.logo {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .logo img {
+    width: 300px; /* Ajusta el tamaño del logo */
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .logo img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Menú de navegación */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #8b5a2b;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #c6851b;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para los menús desplegables */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }  
+  
+  /* Encabezado */
+  header {
+    background-color: #7ac74f;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Contenedor principal */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 20px;
+  }
+  
+  /* Barra de búsqueda */
+  .search-bar {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  /* Botones de juegos */
+  .game-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .game-buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.3s;
+  }
+  
+  .game-buttons img {
+    width: 120px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .game-buttons img:hover {
+    transform: scale(1.1); /* Efecto de agrandamiento en hover */
+  }
+
+/* Contenedor principal para usar todo el ancho disponible */
+#checklist {
+  max-width: 90%; /* Ajusta el ancho máximo al 90% de la pantalla */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Lista de series como enlaces */
+.series-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+/* Enlace de cada serie */
+.series-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #f0e68c; /* Ajusta el color de fondo según tu preferencia */
+  font-size: 1em;
+  font-weight: bold;
+  color: #8b5a2b; /* Color del texto */
+  transition: background-color 0.3s ease;
+  text-align: center;
+  height: 40px; /* Puedes ajustar la altura según sea necesario */
+}
+
+.series-link:hover {
+  background-color: #d0a97b;
+  color: #fff;
+  transform: scale(1.05)
+}
+
+.series-container {
+  border: 2px solid #d0a97b !important;
+  border-radius: 10px !important;
+  padding: 16px !important;
+  margin: 20px 0 !important;
+  background-color: #fffaf0 !important;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15) !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
+}
+
+.series-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding-bottom: 10px !important;
+  border-bottom: 1px solid #d0a97b !important;
+  margin-bottom: 10px !important;
+}
+
+.series-header h3 {
+  font-size: 1.4em !important;
+  margin: 0 !important;
+  color: #8b5a2b !important;
+}
+
+.completion-text {
+  font-size: 1.1em !important;
+  color: #8b5a2b !important;
+  font-weight: bold !important;
+}
+
+.item-table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin-top: 10px !important;
+  font-size: 0.95em !important;
+}
+
+.item-table th,
+.item-table td {
+  border: 1px solid #d0a97b !important;
+  padding: 8px !important;
+  text-align: center !important;
+}
+
+.item-table th {
+  background-color: #f1dcbf !important;
+  color: #8b5a2b !important;
+  font-weight: bold !important;
+}
+
+.item-table td {
+  background-color: #fff !important;
+}
+
+.item-table tr:hover {
+  background-color: #fdf2e4 !important;
+}
+
+.item-table td:first-child {
+  text-align: center !important;
+}
+
+.reset-button {
+  display: inline-block !important;
+  margin-top: 15px !important;
+  padding: 8px 12px !important;
+  background-color: #e76f51 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s !important;
+}
+
+.reset-button:hover {
+  background-color: #d9534f !important;
+}
+
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #8b5a2b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none; /* Se oculta inicialmente */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+#back-to-top:hover {
+  background-color: #c6851b;
+}
+
+#dashboard {
+  max-width: 100%; /* Evita crecimiento horizontal */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.459);
+  border-radius: 8px;
+  background-image: url("images/graph_bg.png"); /* Ruta de la imagen de fondo */
+  background-repeat: repeat-y;                  /* Repetir solo verticalmente */
+  background-size: contain;                     /* Ajustar el ancho para que contenga toda la imagen */
+  background-position: center top;              /* Centrar la imagen en la parte superior */
+}
+
+
+#dashboard h2 {
+  position: sticky; /* o fixed */
+  top: 0;
+  background-color: #f7e7b4; /* fondo que combine */
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.container {
+  height: calc(100vh - 50px); /* Ajusta para que se mantenga en pantalla */
+}
+
+
+#dashboard canvas {
+  width: 95%; /* Casi todo el contenedor */
+  max-width: 1200px; /* Ancho máximo */
+  height: 40px; /* Altura reducida */
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.chart {
+  width: 90% !important;
+  height: 50px !important;
+  max-width: 1000px !important;
+  margin: 20px auto !important;
+  background-color: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 2px !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+#customTooltip {
+  transition: opacity 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 200px;
+}
+
+.golden-button {
+  background: linear-gradient(90deg, #D2AC47, #F7EF8A, #D2AC47, #EDC967);
+  border: 2px solid #d2ac47;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4), inset 0px 2px 4px rgba(255, 255, 255, 0.6);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.golden-button:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+

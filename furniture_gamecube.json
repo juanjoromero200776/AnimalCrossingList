@@ -1,0 +1,860 @@
+{
+    "Furniture": [
+      {
+        "series": "Blue Series",
+        "items": [
+          { "name": "Blue Bed", "bells": 2100, "source": "Redd" },
+          { "name": "Blue Bench", "bells": 1900 },
+          { "name": "Blue Bookcase", "bells": 1900 },
+          { "name": "Blue Bureau", "bells": 2160 },
+          { "name": "Blue Cabinet", "bells": 2400 },
+          { "name": "Blue Chair", "bells": 1900 },
+          { "name": "Blue Clock", "bells": 1600 },
+          { "name": "Blue Dresser", "bells": 2100, "source": "Lottery" },
+          { "name": "Blue Table", "bells": 1800, "source": "Redd" },
+          { "name": "Blue Wardrobe", "bells": 1920 }
+        ]
+      },
+      {
+        "series": "Cabana Series",
+        "items": [
+          { "name": "Cabana Armchair", "bells": 1800, "source": "Lottery" },
+          { "name": "Cabana Bed", "bells": 2200, "source": "Redd" },
+          { "name": "Cabana Bookcase", "bells": 2400 },
+          { "name": "Cabana Chair", "bells": 1600, "source": "Redd" },
+          { "name": "Cabana Dresser", "bells": 2400 },
+          { "name": "Cabana Lamp", "bells": 1700 },
+          { "name": "Cabana Screen", "bells": 2000 },
+          { "name": "Cabana Table", "bells": 1800 },
+          { "name": "Cabana Vanity", "bells": 1800 },
+          { "name": "Cabana Wardrobe", "bells": 2240 }
+        ]
+      },
+      {
+        "series": "Cabin Series",
+        "items": [
+          { "name": "Cabin Armchair", "bells": 2280 },
+          { "name": "Cabin Bed", "bells": 2100 },
+          { "name": "Cabin Bookcase", "bells": 2300, "source": "Lottery" },
+          { "name": "Cabin Chair", "bells": 1700, "source": "Redd" },
+          { "name": "Cabin Clock", "bells": 2480 },
+          { "name": "Cabin Couch", "bells": 2480 },
+          { "name": "Cabin Dresser", "bells": 2160, "source": "Redd" },
+          { "name": "Cabin Low Table", "bells": 2480 },
+          { "name": "Cabin Table", "bells": 2100 },
+          { "name": "Cabin Wardrobe", "bells": 2480 }
+        ]
+      },
+    {
+    "series": "Classic Series",
+    "items": [
+        { "name": "Classic Bed", "bells": 2520 },
+        { "name": "Classic Cabinet", "bells": 2560 },
+        { "name": "Classic Chair", "bells": 1800 },
+        { "name": "Classic Clock", "bells": 2180 },
+        { "name": "Classic Desk", "bells": 2200 },
+        { "name": "Classic Hutch", "bells": 3360, "source": "Lottery" },
+        { "name": "Classic Sofa", "bells": 2240 },
+        { "name": "Classic Table", "bells": 1600 },
+        { "name": "Classic Vanity", "bells": 2560, "source": "Redd" },
+        { "name": "Classic Wardrobe", "bells": 2560, "source": "Redd" }
+    ]
+    },
+    {
+    "series": "Exotic Series",
+    "items": [
+        { "name": "Exotic Bed", "bells": 2540, "source": "Redd" },
+        { "name": "Exotic Bench", "bells": 1900 },
+        { "name": "Exotic Bureau", "bells": 2180 },
+        { "name": "Exotic Chair", "bells": 2180 },
+        { "name": "Exotic Chest", "bells": 1800 },
+        { "name": "Exotic End Table", "bells": 1600 },
+        { "name": "Exotic Lamp", "bells": 1800, "source": "Lottery" },
+        { "name": "Exotic Screen", "bells": 2250 },
+        { "name": "Exotic Table", "bells": 2300, "source": "Redd" },
+        { "name": "Exotic Wardrobe", "bells": 2180 }
+    ]
+    },
+    {
+    "series": "Green Series",
+    "items": [
+        { "name": "Green Bed", "bells": 2160 },
+        { "name": "Green Bench", "bells": 1800 },
+        { "name": "Green Chair", "bells": 1200 },
+        { "name": "Green Counter", "bells": 2400 },
+        { "name": "Green Desk", "bells": 2000 },
+        { "name": "Green Dresser", "bells": 2320, "source": "Redd" },
+        { "name": "Green Lamp", "bells": 1800 },
+        { "name": "Green Pantry", "bells": 2290, "source": "Lottery" },
+        { "name": "Green Table", "bells": 1700 },
+        { "name": "Green Wardrobe", "bells": 2300, "source": "Redd" }
+    ]
+    },
+    {
+    "series": "Kiddie Series",
+    "items": [
+        { "name": "Kiddie Bed", "bells": 2100, "source": "Redd" },
+        { "name": "Kiddie Bookcase", "bells": 1800 },
+        { "name": "Kiddie Bureau", "bells": 2200 },
+        { "name": "Kiddie Chair", "bells": 1400 },
+        { "name": "Kiddie Clock", "bells": 1480, "source": "Redd" },
+        { "name": "Kiddie Couch", "bells": 2200 },
+        { "name": "Kiddie Dresser", "bells": 2150 },
+        { "name": "Kiddie Stereo", "bells": 1900, "source": "Lottery" },
+        { "name": "Kiddie Table", "bells": 2200 },
+        { "name": "Kiddie Wardrobe", "bells": 2180 }
+    ]
+    },
+    {
+    "series": "Lovely Series",
+    "items": [
+        { "name": "Lovely Armchair", "bells": 2000 },
+        { "name": "Lovely Armoire", "bells": 2240 },
+        { "name": "Lovely Bed", "bells": 2000 },
+        { "name": "Lovely Chair", "bells": 1600 },
+        { "name": "Lovely Dresser", "bells": 2160 },
+        { "name": "Lovely End Table", "bells": 1800, "source": "Redd" },
+        { "name": "Lovely Kitchen", "bells": 2280, "source": "Lottery" },
+        { "name": "Lovely Lamp", "bells": 1600 },
+        { "name": "Lovely Phone", "bells": null, "source": "Mother's Day Gift" },
+        { "name": "Lovely Stereo", "bells": 7920, "source": "Redd" },
+        { "name": "Lovely Table", "bells": 1800 },
+        { "name": "Lovely Vanity", "bells": 2200 }
+    ]
+    },
+    {
+        "series": "Modern Series",
+        "items": [
+          { "name": "Modern Bed", "bells": 2320 },
+          { "name": "Modern Cabinet", "bells": 2580, "source": "Lottery" },
+          { "name": "Modern Chair", "bells": 1500 },
+          { "name": "Modern Desk", "bells": 2480 },
+          { "name": "Modern Dresser", "bells": 2250 },
+          { "name": "Modern End Table", "bells": 1900, "source": "Redd" },
+          { "name": "Modern Lamp", "bells": 1400 },
+          { "name": "Modern Sofa", "bells": 2620 },
+          { "name": "Modern Table", "bells": 1800 },
+          { "name": "Modern Wardrobe", "bells": 2560, "source": "Redd" }
+        ]
+      },
+      {
+        "series": "Ranch Series",
+        "items": [
+          { "name": "Ranch Armchair", "bells": 2000 },
+          { "name": "Ranch Bed", "bells": 2000 },
+          { "name": "Ranch Bookcase", "bells": 2000 },
+          { "name": "Ranch Chair", "bells": 1400, "source": "Redd" },
+          { "name": "Ranch Couch", "bells": 2400 },
+          { "name": "Ranch Dresser", "bells": 2720, "source": "Redd" },
+          { "name": "Ranch Hutch", "bells": 2560, "source": "Lottery" },
+          { "name": "Ranch Table", "bells": 1700 },
+          { "name": "Ranch Tea Table", "bells": 1800 },
+          { "name": "Ranch Wardrobe", "bells": 3050 }
+        ]
+      },
+      {
+        "series": "Regal Series",
+        "items": [
+          { "name": "Regal Armoire", "bells": 3820 },
+          { "name": "Regal Bed", "bells": 3120, "source": "Redd" },
+          { "name": "Regal Bookcase", "bells": 3120 },
+          { "name": "Regal Chair", "bells": 2100, "source": "Redd" },
+          { "name": "Regal Cupboard", "bells": 3360, "source": "Lottery" },
+          { "name": "Regal Dresser", "bells": 3520 },
+          { "name": "Regal Lamp", "bells": 2400 },
+          { "name": "Regal Sofa", "bells": 3100 },
+          { "name": "Regal Table", "bells": 2540 },
+          { "name": "Regal Vanity", "bells": 3200 }
+        ]
+      },
+      {
+        "series": "Harvest Series",
+        "items": [
+          { "name": "Harvest Bed", "bells": null },
+          { "name": "Harvest Bureau", "bells": null },
+          { "name": "Harvest Chair", "bells": null },
+          { "name": "Harvest Clock", "bells": null },
+          { "name": "Harvest Dresser", "bells": null },
+          { "name": "Harvest Lamp", "bells": null },
+          { "name": "Harvest Mirror", "bells": null },
+          { "name": "Harvest Sofa", "bells": null },
+          { "name": "Harvest Table", "bells": null },
+          { "name": "Harvest TV", "bells": null }
+        ]
+      },
+      {
+        "series": "Jingle Series",
+        "items": [
+          { "name": "Big Festive Tree", "bells": null },
+          { "name": "Festive Tree", "bells": null },
+          { "name": "Jingle Bed", "bells": null },
+          { "name": "Jingle Chair", "bells": null },
+          { "name": "Jingle Clock", "bells": null },
+          { "name": "Jingle Dresser", "bells": null },
+          { "name": "Jingle Lamp", "bells": null },
+          { "name": "Jingle Piano", "bells": null },
+          { "name": "Jingle Shelves", "bells": null },
+          { "name": "Jingle Sofa", "bells": null },
+          { "name": "Jingle Table", "bells": null },
+          { "name": "Jingle Wardrobe", "bells": null }
+        ]
+      },
+      {
+        "series": "Spooky Series",
+        "items": [
+          { "name": "Spooky Bed", "bells": null },
+          { "name": "Spooky Bookcase", "bells": null },
+          { "name": "Spooky Chair", "bells": null },
+          { "name": "Spooky Clock", "bells": null },
+          { "name": "Spooky Dresser", "bells": null },
+          { "name": "Spooky Lamp", "bells": null },
+          { "name": "Spooky Sofa", "bells": null },
+          { "name": "Spooky Table", "bells": null },
+          { "name": "Spooky Vanity", "bells": null },
+          { "name": "Spooky Wardrobe", "bells": null }
+        ]
+      },
+      {
+        "series": "Snowman Series",
+        "items": [
+          { "name": "Snowman Bed", "bells": null },
+          { "name": "Snowman Chair", "bells": null },
+          { "name": "Snowman Clock", "bells": null },
+          { "name": "Snowman Dresser", "bells": null },
+          { "name": "Snowman Fridge", "bells": null },
+          { "name": "Snowman Lamp", "bells": null },
+          { "name": "Snowman Sofa", "bells": null },
+          { "name": "Snowman Table", "bells": null },
+          { "name": "Snowman TV", "bells": null },
+          { "name": "Snowman Wardrobe", "bells": null }
+        ]
+      },
+      {
+        "series": "Backyard Series",
+        "items": [
+          { "name": "Backyard Pool", "bells": 990, "source": "Redd" },
+          { "name": "Barbecue", "bells": 1760 },
+          { "name": "Bird Bath", "bells": 1450 },
+          { "name": "Bird Feeder", "bells": 1260 },
+          { "name": "Birdhouse", "bells": 1620 },
+          { "name": "Bug Zapper", "bells": 1200 },
+          { "name": "Garden Gnome", "bells": 3380, "source": "Lottery" },
+          { "name": "Hammock", "bells": 1320 },
+          { "name": "Lawn Chair", "bells": 1180 },
+          { "name": "Lawn Mower", "bells": 2760, "source": "Redd" },
+          { "name": "Mr. Flamingo", "bells": 1530 },
+          { "name": "Mrs. Flamingo", "bells": 1530 },
+          { "name": "Picnic Table", "bells": 1390 },
+          { "name": "Sprinkler", "bells": 1640 }
+        ]
+      },
+      {
+        "series": "Boxing Series",
+        "items": [
+          { "name": "Blue Corner", "bells": 6800, "source": "Lottery" },
+          { "name": "Boxing Barricade", "bells": 1050 },
+          { "name": "Boxing Mat", "bells": 1180 },
+          { "name": "Judge's Bell", "bells": 1790 },
+          { "name": "Neutral Corner", "bells": 5500 },
+          { "name": "Red Corner", "bells": 6800, "source": "Redd" },
+          { "name": "Ringside Table", "bells": 1320 },
+          { "name": "Sandbag", "bells": 3190 },
+          { "name": "Speed Bag", "bells": 2990 },
+          { "name": "Weight Bench", "bells": 3590 }
+        ]
+      },
+      {
+        "series": "Chess Series",
+        "items": [
+          { "name": "Black Bishop", "bells": 2800, "source": "Redd" },
+          { "name": "Black King", "bells": 23200, "source": "Lottery" },
+          { "name": "Black Knight", "bells": 2800, "source": "Redd" },
+          { "name": "Black Pawn", "bells": 1000 },
+          { "name": "Black Rook", "bells": 2800, "source": "Redd" },
+          { "name": "Black Queen", "bells": 23200, "source": "Lottery" },
+          { "name": "White Bishop", "bells": 2800, "source": "Redd" },
+          { "name": "White King", "bells": 23200, "source": "Lottery" },
+          { "name": "White Knight", "bells": 2800, "source": "Redd" },
+          { "name": "White Pawn", "bells": 1000 },
+          { "name": "White Rook", "bells": 2800, "source": "Redd" },
+          { "name": "White Queen", "bells": 23200, "source": "Lottery" }
+        ]
+      },
+      {
+        "series": "Construction Series",
+        "items": [
+          { "name": "Cement Mixer", "bells": 1600, "source": "Lottery" },
+          { "name": "Detour Arrow", "bells": 600 },
+          { "name": "Detour Sign", "bells": 830 },
+          { "name": "Flagman Sign", "bells": 850 },
+          { "name": "Green Drum", "bells": 800 },
+          { "name": "Handcart", "bells": 800 },
+          { "name": "Haz-Mat Barrel", "bells": 830 },
+          { "name": "Iron Frame", "bells": 1200 },
+          { "name": "Jackhammer", "bells": 1880 },
+          { "name": "Jersey Barrier", "bells": 1050 },
+          { "name": "Manhole Cover", "bells": 1000 },
+          { "name": "Men at Work Sign", "bells": 850 },
+          { "name": "Merge Sign", "bells": 850 },
+          { "name": "Oil Drum", "bells": 840 },
+          { "name": "Orange Cone", "bells": 600 },
+          { "name": "Saw Horse", "bells": 900 },
+          { "name": "Speed Sign", "bells": 870 },
+          { "name": "Steamroller", "bells": 4500, "source": "Redd" },
+          { "name": "Traffic Cone", "bells": 800 },
+          { "name": "Wet Roadway Sign", "bells": 850 }
+        ]
+      },
+      {
+        "series": "Mossy Garden Series",
+        "items": [
+          { "name": "Deer Scare", "bells": 1800, "source": "Redd" },
+          { "name": "Garden Pond", "bells": 2580, "source": "Lottery" },
+          { "name": "Low Lantern", "bells": 2100 },
+          { "name": "Pond Lantern", "bells": 1980 },
+          { "name": "Shrine Lantern", "bells": 1980 },
+          { "name": "Tall Lantern", "bells": 1980 }
+        ]
+      },
+      {
+        "series": "Rock Garden Series",
+        "items": [
+          { "name": "Dark Stone", "bells": 2200 },
+          { "name": "Garden Stone", "bells": 1900 },
+          { "name": "Leaning Stone", "bells": 2100 },
+          { "name": "Mossy Stone", "bells": 2160 },
+          { "name": "Standing Stone", "bells": 2500 },
+          { "name": "Stone Couple", "bells": 2380 }
+        ]
+      },
+      {
+        "series": "Classroom Series",
+        "items": [
+          { "name": "Teacher's Chair", "bells": 1440 },
+          { "name": "Chalk Board", "bells": 1400 },
+          { "name": "Cubby Hole", "bells": 2200 },
+          { "name": "Flip-Top Desk", "bells": 1320 },
+          { "name": "Folding Chair", "bells": 600 },
+          { "name": "Lefty Desk", "bells": 1240 },
+          { "name": "Letter Cubby", "bells": 2300, "source": "Redd" },
+          { "name": "Righty Desk", "bells": 1240 },
+          { "name": "Hamster Cage", "bells": 2290, "source": "Lottery" },
+          { "name": "School Desk", "bells": 1320 },
+          { "name": "Science Table", "bells": 1900 },
+          { "name": "Teacher's Desk", "bells": 1580 },
+          { "name": "Vaulting Horse", "bells": 1200 }
+        ]
+      },
+      {
+        "series": "Space Series",
+        "items": [
+          { "name": "Asteroid", "bells": 1800 },
+          { "name": "Flying Saucer", "bells": 2400 },
+          { "name": "Lunar Lander", "bells": 3200 },
+          { "name": "Lunar Rover", "bells": 2560 },
+          { "name": "Rocket", "bells": 2400 },
+          { "name": "Satellite", "bells": 2600 },
+          { "name": "Space Shuttle", "bells": 2780 },
+          { "name": "Space Station", "bells": 2800 },
+          { "name": "Spaceman Sam", "bells": 2800 }
+        ]
+      },
+      {
+        "series": "Western Series",
+        "items": [
+          { "name": "Covered Wagon", "bells": 3800, "source": "Lottery" },
+          { "name": "Cow Skull", "bells": 1020 },
+          { "name": "Desert Cactus", "bells": 890 },
+          { "name": "Saddle Fence", "bells": 2180, "source": "Redd" },
+          { "name": "Storefront", "bells": 3680 },
+          { "name": "Tumbleweed", "bells": 520 },
+          { "name": "Wagon Wheel", "bells": 1230 },
+          { "name": "Watering Trough", "bells": 1100 },
+          { "name": "Well", "bells": 2700, "source": "Redd" }
+        ]
+      },
+      {
+        "series": "Apple Set",
+        "items": [
+          { "name": "Apple Clock", "bells": 1200 },
+          { "name": "Apple TV", "bells": 1600 }
+        ]
+      },
+      {
+        "series": "Teddy Bear Set",
+        "items": [
+          { "name": "Baby Bear", "bells": 800 },
+          { "name": "Mama Bear", "bells": 1600 },
+          { "name": "Papa Bear", "bells": 2200 }
+        ]
+      },
+      {
+        "series": "Bonsai Set",
+        "items": [
+          { "name": "Mugho Bonsai", "bells": 1800 },
+          { "name": "Pine Bonsai", "bells": 1800 },
+          { "name": "Pondarosa Bonsai", "bells": 1800 }
+        ]
+      },
+      {
+        "series": "Cactus Set",
+        "items": [
+          { "name": "Cactus", "bells": 1700 },
+          { "name": "Round Cactus", "bells": 1700 },
+          { "name": "Tall Cactus", "bells": 1700 }
+        ]
+      },
+      {
+        "series": "Citrus Set",
+        "items": [
+          { "name": "Grapefruit Table", "bells": 1500 },
+          { "name": "Lemon Table", "bells": 1500 },
+          { "name": "Lime Chair", "bells": 1300 },
+          { "name": "Orange Chair", "bells": 1300 }
+        ]
+      },
+      {
+        "series": "Daffodil Set",
+        "items": [
+          { "name": "Daffodil Chair", "bells": 1400 },
+          { "name": "Daffodil Table", "bells": 1900 }
+        ]
+      },
+      {
+        "series": "Iris Flower Set",
+        "items": [
+          { "name": "Iris Chair", "bells": 1400 },
+          { "name": "Iris Table", "bells": 1900 }
+        ]
+      },
+      {
+        "series": "Drum Set",
+        "items": [
+          { "name": "Conga Drum", "bells": 1600 },
+          { "name": "Djimbe Drum", "bells": 1900 },
+          { "name": "Tinpano Drum", "bells": 2100, "source": "Redd" }
+        ]
+      },
+      {
+        "series": "Figurine Set",
+        "items": [
+          { "name": "Aiko Figurine", "bells": 800 },
+          { "name": "Emi Figurine", "bells": 800 },
+          { "name": "Keiko Figurine", "bells": 800 },
+          { "name": "Maki Figurine", "bells": 800 },
+          { "name": "Naomi Figurine", "bells": 800 },
+          { "name": "Yoko Figurine", "bells": 800 },
+          { "name": "Yuki Figurine", "bells": 800 }
+        ]
+      },
+      {
+        "series": "Frog Set",
+        "items": [
+          { "name": "Froggy Chair", "bells": 1200 },
+          { "name": "Lily-pad Table", "bells": 1600 }
+        ]
+      },
+      {
+        "series": "Guitar Set",
+        "items": [
+          { "name": "Country Guitar", "bells": 1700 },
+          { "name": "Folk Guitar", "bells": 1600 },
+          { "name": "Rock Guitar", "bells": 1800 }
+        ]
+      },
+      {
+        "series": "Lucky Nintendo Set",
+        "items": [
+          { "name": "Luigi Trophy", "bells": 7000, "source": "Lottery/Redd" },
+          { "name": "Mario Trophy", "bells": 7000, "source": "Lottery" }
+        ]
+      },
+      {
+        "series": "Melon Set",
+        "items": [
+          { "name": "Melon Chair", "bells": 1300 },
+          { "name": "Watermelon Chair", "bells": 1300 },
+          { "name": "Watermelon Table", "bells": 1800 }
+        ]
+      },
+      {
+        "series": "Nintendo Set",
+        "items": [
+          { "name": "Arwing", "bells": 25600, "source": "Lottery" },
+          { "name": "G Logo", "bells": 2500 },
+          { "name": "Master Sword", "bells": 2800 },
+          { "name": "N Logo", "bells": 2400 }
+        ]
+      },
+      {
+        "series": "Office Set",
+        "items": [
+          { "name": "Office Chair", "bells": 1100 },
+          { "name": "Office Desk", "bells": 1600 },
+          { "name": "Office Locker", "bells": 1200 }
+        ]
+      },
+      {
+        "series": "Pine Wood Set",
+        "items": [
+          { "name": "Pine Chair", "bells": 1800 },
+          { "name": "Pine Table", "bells": 2280 }
+        ]
+      },
+      {
+        "series": "Totem Pole Set",
+        "items": [
+          { "name": "Bear Pole", "bells": 1400 },
+          { "name": "Eagle Pole", "bells": 1400 },
+          { "name": "Frog Woman Pole", "bells": 1400, "source": "Redd" },
+          { "name": "Raven Pole", "bells": 1400 }
+        ]
+      },
+      {
+        "series": "Vase Set",
+        "items": [
+          { "name": "Blue Vase", "bells": 2500 },
+          { "name": "Red Vase", "bells": 2450 },
+          { "name": "Tea Vase", "bells": 2400 }
+        ]
+      },
+      {
+        "series": "Vending Machine Set",
+        "items": [
+          { "name": "Candy Machine", "bells": 2200 },
+          { "name": "Coffee Machine", "bells": 2100 },
+          { "name": "Pop Machine", "bells": 3250, "source": "Lottery" },
+          { "name": "Soda Machine", "bells": 1700 }
+        ]
+      },
+      {
+        "series": "Study Set",
+        "items": [
+          { "name": "Globe", "bells": 1200 },
+          { "name": "Writing Chair", "bells": 1000 },
+          { "name": "Writing Desk", "bells": 1900 }
+        ]
+      },
+      {
+        "series": "Household Items",
+        "items": [
+          { "name": "Barber's Pole", "bells": 1600 },
+          { "name": "Barrel", "bells": 800 },
+          { "name": "Billiard Table", "bells": 1800 },
+          { "name": "Birdcage", "bells": 1700 },
+          { "name": "Bus Stop", "bells": 820 },
+          { "name": "Chess Table", "bells": 2200 },
+          { "name": "Computer", "bells": 1820, "source": "Redd" },
+          { "name": "Elephant Slide", "bells": 1200 },
+          { "name": "Executive Toy", "bells": 1100 },
+          { "name": "Extinguisher", "bells": 1300 },
+          { "name": "Fan", "bells": 1200 },
+          { "name": "Garbage Can", "bells": 500 },
+          { "name": "Glass Top Table", "bells": 2200 },
+          { "name": "Hinaningyo", "bells": 2560, "source": "Redd" },
+          { "name": "Keg", "bells": 800 },
+          { "name": "Mochi Pestle", "bells": 1400 },
+          { "name": "Nook's Portrait", "bells": 480 },
+          { "name": "Orange Box", "bells": 80 },
+          { "name": "Pineapple Bed", "bells": 1990 },
+          { "name": "Potbelly Stove", "bells": 2000 },
+          { "name": "Slot Machine", "bells": 777 },
+          { "name": "Stove", "bells": 1980 },
+          { "name": "Radiator", "bells": 2380 },
+          { "name": "Refrigerator", "bells": 1200 },
+          { "name": "Retro TV", "bells": 1600 },
+          { "name": "Rocking Chair", "bells": 1400 },
+          { "name": "Samurai Suit", "bells": 4500, "source": "Lottery" },
+          { "name": "Scale", "bells": 1200 },
+          { "name": "Sewing Machine", "bells": 1350 },
+          { "name": "Space Heater", "bells": 1700 },
+          { "name": "Super Toilet", "bells": 1980, "source": "Redd" },
+          { "name": "Table Tennis", "bells": 1800 },
+          { "name": "Tanabata Palm", "bells": 1925, "source": "Redd" },
+          { "name": "Tea Set", "bells": 300 },
+          { "name": "Toilet", "bells": 1800 },
+          { "name": "Train Set", "bells": 1600 },
+          { "name": "Trash Bin", "bells": 500 },
+          { "name": "Water Bird", "bells": 1400 },
+          { "name": "Wide-screen TV", "bells": 2200, "source": "Redd" },
+          { "name": "Wobbelina", "bells": 700 }
+        ]
+      },
+      {
+        "series": "Instruments",
+        "items": [
+          { "name": "Biwa Lute", "bells": 1800 },
+          { "name": "Ebony Piano", "bells": 3800, "source": "Redd" },
+          { "name": "Harp", "bells": 1700 },
+          { "name": "Ivory Piano", "bells": 3500, "source": "Lottery" },
+          { "name": "Metronome", "bells": 1000 },
+          { "name": "Taiko Drum", "bells": 1300 },
+          { "name": "Vibraphone", "bells": 1900 }
+        ]
+      },
+      {
+        "series": "Flowers",
+        "items": [
+          { "name": "Daffodil", "bells": 680 },
+          { "name": "Gerbera", "bells": 780 },
+          { "name": "Sunflower", "bells": 980 }
+        ]
+      },
+      {
+        "series": "Golf Bags",
+        "items": [
+          { "name": "Blue Golf Bag", "bells": 1600 },
+          { "name": "Green Golf Bag", "bells": 1600 },
+          { "name": "White Golf Bag", "bells": 1600 }
+        ]
+      },
+      {
+        "series": "Extra Furniture",
+        "items": [
+          { "name": "Cream Sofa", "bells": 2000 },
+          { "name": "Gold Econo-chair", "bells": 800 },
+          { "name": "Red Sofa", "bells": 2050 },
+          { "name": "Jade Econo-chair", "bells": 800 },
+          { "name": "Red Armchair", "bells": 1800 },
+          { "name": "Rocking Chair", "bells": 1400 },
+          { "name": "Ruby Econo-chair", "bells": 800 }
+        ]
+      },
+      {
+        "series": "Clocks",
+        "items": [
+          { "name": "Alarm Clock", "bells": 1000 },
+          { "name": "Antique Clock", "bells": 2350 },
+          { "name": "Cube Clock", "bells": 1100 },
+          { "name": "Glow Clock", "bells": 1500 },
+          { "name": "Kitschy Clock", "bells": 1800 },
+          { "name": "Odd Clock", "bells": 1800 },
+          { "name": "Owl Clock", "bells": 1300 },
+          { "name": "Red Clock", "bells": 1300 }
+        ]
+      },
+      {
+        "series": "Bonsai Trees",
+        "items": [
+          { "name": "Azalea Bonsai", "bells": 1500 },
+          { "name": "Hawthorn Bonsai", "bells": 1800 },
+          { "name": "Holly Bonsai", "bells": 1600 },
+          { "name": "Jasmine Bonsai", "bells": 1700 },
+          { "name": "Maple Bonsai", "bells": 1700 },
+          { "name": "Plum Bonsai", "bells": 1900, "source": "Lottery" },
+          { "name": "Quince Bonsai", "bells": 1600 }
+        ]
+      },
+      {
+        "series": "House Plants",
+        "items": [
+          { "name": "Aloe", "bells": 1200 },
+          { "name": "Bromeliaceae", "bells": 1300 },
+          { "name": "Caladium", "bells": 1300 },
+          { "name": "Coconut Palm", "bells": 1200 },
+          { "name": "Corn Plant", "bells": 1300 },
+          { "name": "Croton", "bells": 1300 },
+          { "name": "Dracaena", "bells": 2000, "source": "Lottery" },
+          { "name": "Fan Palm", "bells": 1300 },
+          { "name": "Lady Palm", "bells": 1200 },
+          { "name": "Pachira", "bells": 1200 },
+          { "name": "Pothos", "bells": 1300 },
+          { "name": "Rubber Tree", "bells": 1300 },
+          { "name": "Snake Plant", "bells": 1200 },
+          { "name": "Weeping Fig", "bells": 1200 }
+        ]
+      },
+      {
+        "series": "Stereos",
+        "items": [
+          { "name": "CD Player", "bells": 1600 },
+          { "name": "Dice Stereo", "bells": 2150, "source": "Redd" },
+          { "name": "Gold Stereo", "bells": 2640 },
+          { "name": "Hi-Fi Stereo", "bells": 24000, "source": "Lottery" },
+          { "name": "High-End Stereo", "bells": 2750, "source": "Redd" },
+          { "name": "Jukebox", "bells": 3850, "source": "Lottery" },
+          { "name": "Red Boom Box", "bells": 1500 },
+          { "name": "Phonograph", "bells": 1840 },
+          { "name": "Reel-to-Reel", "bells": 2000 },
+          { "name": "Retro Stereo", "bells": 2160 },
+          { "name": "Tape Deck", "bells": 700 },
+          { "name": "Turntable", "bells": 2580, "source": "Redd" },
+          { "name": "White Boom Box", "bells": 1500 }
+        ]
+      },
+      {
+        "series": "Paintings",
+        "items": [
+          { "name": "Amazing Painting", "bells": 1960, "source": "Redd" },
+          { "name": "Basic Painting", "bells": 1960 },
+          { "name": "Classic Painting", "bells": 1960 },
+          { "name": "Common Painting", "bells": 1960, "source": "Redd" },
+          { "name": "Dainty Painting", "bells": 1960, "source": "Redd" },
+          { "name": "Famous Painting", "bells": 1960, "source": "Redd" },
+          { "name": "Fine Painting", "bells": 1960 },
+          { "name": "Flowery Painting", "bells": 1960, "source": "Redd" },
+          { "name": "Moving Painting", "bells": 1960, "source": "Redd" },
+          { "name": "Perfect Painting", "bells": 1960 },
+          { "name": "Quaint Painting", "bells": 1960, "source": "Redd" },
+          { "name": "Rare Painting", "bells": 1960 },
+          { "name": "Scary Painting", "bells": 1960, "source": "Redd" },
+          { "name": "Strange Painting", "bells": 1960 },
+          { "name": "Worthy Painting", "bells": 1960 }
+        ]
+      },
+      {
+        "series": "Island Items",
+        "items": [
+          { "name": "Beach Chair", "bells": null },
+          { "name": "Beach Table", "bells": null },
+          { "name": "Diver Dan", "bells": null },
+          { "name": "Life Ring", "bells": null },
+          { "name": "Snowcone Machine", "bells": null },
+          { "name": "Surfboard", "bells": null },
+          { "name": "Treasure Chest", "bells": null },
+          { "name": "Ukulele", "bells": null },
+          { "name": "Wave Breaker", "bells": null }
+        ]
+      },
+      {
+        "series": "Gulliver's Items",
+        "items": [
+          { "name": "Arc de Triomphe", "bells": null },
+          { "name": "Chinese Lion", "bells": null },
+          { "name": "Chinese Lioness", "bells": null },
+          { "name": "Compass", "bells": null },
+          { "name": "Fishing Bear", "bells": null },
+          { "name": "Lady Liberty", "bells": null },
+          { "name": "Manekin Pis", "bells": null },
+          { "name": "Matryoshka", "bells": null },
+          { "name": "Merlion", "bells": null },
+          { "name": "Mermaid Statue", "bells": null },
+          { "name": "Moai Statue", "bells": null },
+          { "name": "Mouth of Truth", "bells": null },
+          { "name": "Pagoda", "bells": null },
+          { "name": "Plate Armor", "bells": null },
+          { "name": "Shogi Piece", "bells": null },
+          { "name": "Stone Coin", "bells": null },
+          { "name": "Tiger Bobblehead", "bells": null },
+          { "name": "Tokyo Tower", "bells": null },
+          { "name": "Tower of Pisa", "bells": null },
+          { "name": "Tribal Mask", "bells": null }
+        ]
+      },
+      {
+        "series": "Special Gifts",
+        "items": [
+          { "name": "Aerobics Radio", "bells": null, "source": "Morning Aerobics gift" },
+          { "name": "Angler Trophy", "bells": null, "source": "Summer Fishing Tournament gift" },
+          { "name": "Autumn Medal", "bells": null, "source": "Fall Sports Fair gift" },
+          { "name": "Backpack", "bells": null, "source": "Get from Summer campers" },
+          { "name": "Birthday Cake", "bells": null, "source": "Birthday gift from mom" },
+          { "name": "Bonfire", "bells": null, "source": "Get from Summer campers" },
+          { "name": "Bottle Rocket", "bells": null, "source": "Fourth of July gift" },
+          { "name": "Bottled Ship", "bells": null, "source": "Explorer's Day Gift" },
+          { "name": "Campfire", "bells": null, "source": "Get from Summer campers" },
+          { "name": "Chocolates", "bells": null, "source": "Lighthouse Watching Gift" },
+          { "name": "Chowder", "bells": null, "source": "Get from Igloo resident" },
+          { "name": "Cooler", "bells": null, "source": "Get from Summer campers" },
+          { "name": "Cornucopia", "bells": null, "source": "Thanksgiving gift" },
+          { "name": "Crab Stew", "bells": null, "source": "Get from Igloo resident" },
+          { "name": "Dolly", "bells": null, "source": "Toy Day gift" },
+          { "name": "Fireplace", "bells": null, "source": "Get from Igloo resident" },
+          { "name": "Fishing Trophy", "bells": null, "source": "Fall Fishing Tournament gift" },
+          { "name": "Kayak", "bells": null, "source": "Get from Summer campers" },
+          { "name": "Lantern", "bells": null, "source": "Get from Summer campers" },
+          { "name": "Lovely Phone", "bells": null, "source": "Mother's Day Gift" },
+          { "name": "Mailbox", "bells": null, "source": "Save 100,000,000 in P.O. Savings" },
+          { "name": "Miniature Car", "bells": null, "source": "Toy Day gift" },
+          { "name": "Moon", "bells": null, "source": "Harvest Moon gift" },
+          { "name": "Mountain Bike", "bells": null, "source": "Get from Summer campers" },
+          { "name": "Noisemaker", "bells": null, "source": "New Year's Eve gift" },
+          { "name": "Piggy Bank", "bells": null, "source": "Save 10,000,000 in P.O. Savings" },
+          { "name": "Propane Stove", "bells": null, "source": "Get from Summer campers" },
+          { "name": "Sleeping Bag", "bells": null, "source": "Get from Summer campers" },
+          { "name": "Sleigh", "bells": null, "source": "Get from Igloo resident" },
+          { "name": "Snow Bunny", "bells": null, "source": "Get from Igloo resident" },
+          { "name": "Snowboard", "bells": null, "source": "Get from Igloo resident" },
+          { "name": "Snowman", "bells": null, "source": "Snow Day gift" },
+          { "name": "Spring Medal", "bells": null, "source": "Spring Sports Fair gift" },
+          { "name": "Telescope", "bells": null, "source": "Meteor Shower gift" },
+          { "name": "Tissue", "bells": null, "source": "Save 100,000 in P.O. Savings" }
+        ]
+      },
+      {
+        "series": "NES Games",
+        "items": [
+          { "name": "Balloon Fight", "bells": 3000 },
+          { "name": "Baseball", "bells": null, "source": "Animal Island" },
+          { "name": "Clu Clu Land", "bells": 3000 },
+          { "name": "Clu Clu Land D", "bells": null, "source": "Animal Crossing e-Cards" },
+          { "name": "DK Jr Math", "bells": 3000 },
+          { "name": "Donkey Kong", "bells": 3000 },
+          { "name": "Donkey Kong 3", "bells": null, "source": "Animal Crossing e-Cards" },
+          { "name": "Donkey Kong Jr.", "bells": null, "source": "Nintendo password promotion" },
+          { "name": "Excitebike", "bells": 3000 },
+          { "name": "Golf", "bells": 3000, "source": "Redd" },
+          { "name": "NES Console", "bells": 3000, "source": "Redd" },
+          { "name": "Pinball", "bells": 3000 },
+          { "name": "Punch-Out", "bells": null },
+          { "name": "Soccer", "bells": null, "source": "Nintendo password promotion" },
+          { "name": "Super Tortimer", "bells": null, "source": "April Fool's Day gift" },
+          { "name": "Tennis", "bells": 3000 },
+          { "name": "Wario's Woods", "bells": null, "source": "Animal Island" }
+        ]
+      },
+      {
+        "series": "Models",
+        "items": [
+          { "name": "Cosmos Model 1", "bells": 910, "source": "Groundhog Day gift" },
+          { "name": "Cosmos Model 2", "bells": 910, "source": "Groundhog Day gift" },
+          { "name": "Cosmos Model 3", "bells": 910, "source": "Groundhog Day gift" },
+          { "name": "Dirt Model", "bells": 1200 },
+          { "name": "Dump Model", "bells": null, "source": "Spring Cleaning gift" },
+          { "name": "Grass Model", "bells": 1200 },
+          { "name": "House Model", "bells": null, "source": "Get 70,000 points from the HRA" },
+          { "name": "Igloo Model", "bells": null, "source": "Get from Igloo resident" },
+          { "name": "Katrina's Tent", "bells": null, "source": "Halloween gift" },
+          { "name": "Lighthouse Model", "bells": null, "source": "Lighthouse gift" },
+          { "name": "Locomotive Model", "bells": null, "source": "Father's Day gift" },
+          { "name": "Manor Model", "bells": null, "source": "Get 100,000 points from the HRA" },
+          { "name": "Market Model", "bells": null, "source": "Sale Day gift" },
+          { "name": "Museum Model", "bells": null, "source": "Complete the museum's galleries" },
+          { "name": "Pansy Model 1", "bells": 930, "source": "Groundhog Day gift" },
+          { "name": "Pansy Model 2", "bells": 930, "source": "Groundhog Day gift" },
+          { "name": "Pansy Model 3", "bells": 930, "source": "Groundhog Day gift" },
+          { "name": "Pink Tree Model", "bells": 1400, "source": "Cherry Blossom Festival gift" },
+          { "name": "Police Model", "bells": null, "source": "Officer's Day gift" },
+          { "name": "Post Model", "bells": null, "source": "Save 999,999,999 in P.O. Savings" },
+          { "name": "Shop Model", "bells": null, "source": "Labor Day gift" },
+          { "name": "Snowy Tree Model", "bells": null, "source": "Get from Igloo resident" },
+          { "name": "Station Model 1", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 2", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 3", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 4", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 5", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 6", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 7", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 8", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 9", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 10", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 11", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 12", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 13", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 14", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Station Model 15", "bells": null, "source": "\"Your Hometown Day\" gift" },
+          { "name": "Tailor Model", "bells": null, "source": "Graduation Day gift" },
+          { "name": "Tent Model", "bells": null, "source": "Get from Summer campers" },
+          { "name": "Track Model", "bells": 1400 },
+          { "name": "Train Car Model", "bells": 2500 },
+          { "name": "Tree Model", "bells": null, "source": "Nature Day gift" },
+          { "name": "Tulip Model 1", "bells": 940, "source": "Groundhog Day gift" },
+          { "name": "Tulip Model 2", "bells": 940, "source": "Groundhog Day gift" },
+          { "name": "Tulip Model 3", "bells": 940, "source": "Groundhog Day gift" },
+          { "name": "Weed Model", "bells": 820, "source": "Founder's Day gift" },
+          { "name": "Well Model", "bells": null, "source": "Mayor's Day gift" }
+        ]
+      }
+]
+}
+      

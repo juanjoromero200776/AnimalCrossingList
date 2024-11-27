@@ -1,0 +1,49 @@
+{
+    "Fish": [
+      {
+        "series": "River",
+        "items": [
+          {
+            "name": "Crucian carp",
+            "bells": 120,
+            "source": "All day"
+          },
+          {
+            "name": "Carp",
+            "bells": 300,
+            "source": "All day"
+          },
+          {
+            "name": "Koi",
+            "bells": 2000,
+            "source": "4 PM - 9 AM"
+          },
+          {
+            "name": "Barbel steed",
+            "bells": 200,
+            "source": "All day"
+          },
+          {
+            "name": "Dace",
+            "bells": 200,
+            "source": "4 PM - 9 AM"
+          },
+          {
+            "name": "Catfish",
+            "bells": 800,
+            "source": "4 PM - 9 AM"
+          }
+        ]
+      },
+      {
+        "series": "Lake",
+        "items": [
+          {
+            "name": "Brook trout",
+            "bells": 150,
+            "source": "All day"
+          }
+        ]
+      }
+    ]
+  }
