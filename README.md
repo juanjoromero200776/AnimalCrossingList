@@ -11,7 +11,7 @@ Prerequisites
 Before you can run this application, you'll need the following installed on your system:
 
 ## Prerequisites
-Before you begin, ensure you have installed:
+Install Node.js:
 - **Node.js**: Download and install Node.js from [https://nodejs.org/](https://nodejs.org/). This will also install `npm` (Node Package Manager), which is essential for managing the dependencies of the project.
 
 ## Getting Started
@@ -24,7 +24,6 @@ cd AnimalCrossingList
 ```
 
 ### 2. Install Dependencies
-Once you have cloned the repository and navigated into the project directory, you need to install the project dependencies. Run the following command:
 ```bash
 npm install
 ```
@@ -58,11 +57,3 @@ This command will launch the Electron application using the main script defined 
   ```bash
   npx electron-packager . myAppName --platform=win32 --arch=x64
   ```
-
-## Troubleshooting
-- If you encounter any issues with `npm install`, ensure your Node.js and npm are up to date.
-- For problems related to Electron, check the official Electron documentation at [https://electronjs.org/docs](https://electronjs.org/docs) for guidance.
-
----
-
-This setup guide will provide a clear starting point for any users who want to contribute to or run your Electron project. You can further customize the instructions as needed, especially if your project has specific requirements or additional setup steps.
