@@ -10,69 +10,59 @@ Getting Started
 Prerequisites
 Before you can run this application, you'll need the following installed on your system:
 
-Prerequisites
-Before setting up the project, make sure you have the following installed:
+## Prerequisites
+Before you begin, ensure you have installed:
+- **Node.js**: Download and install Node.js from [https://nodejs.org/](https://nodejs.org/). This will also install `npm` (Node Package Manager), which is essential for managing the dependencies of the project.
 
-Node.js: This will also install npm, which is necessary for managing the packages the project depends on.
-Git: For version control and cloning the repository.
-Step 1: Clone the Repository
-First, clone the repository to your local machine using Git. Open your terminal and run:
+## Getting Started
 
-bash
-Copiar código
+### 1. Clone the Repository
+To get started with this project, you need to clone the repository to your local machine. You can do this by running the following command in your terminal:
+```bash
 git clone https://github.com/juanjoromero200776/AnimalCrossingList.git
 cd AnimalCrossingList
-Step 2: Install Dependencies
-After cloning the repository, navigate into the project directory and install the required Node.js dependencies:
+```
 
-bash
-Copiar código
+### 2. Install Dependencies
+Once you have cloned the repository and navigated into the project directory, you need to install the project dependencies. Run the following command:
+```bash
 npm install
-This command reads the package.json file in your project directory and installs all the necessary packages listed under dependencies.
+```
+This command will read the `package.json` file and install all the necessary packages required for the project.
 
-Step 3: Install Electron
-The project uses Electron, so you need to ensure it's installed. If it's not already listed in your package.json, you can install it with:
-
-bash
-Copiar código
+### 3. Install Electron
+This project uses Electron to run. If it's not already listed in your `package.json`, you can install Electron globally (which allows you to run `electron` from the command line) or locally in your project (recommended for encapsulation). To install Electron locally, run:
+```bash
 npm install electron --save-dev
-This command will also add Electron to your devDependencies in the package.json file, ensuring that anyone who sets up the project in the future will automatically get Electron installed when they run npm install.
+```
 
-Step 4: Run the Application
-With all dependencies installed, you can now run the application using Electron. Add a script in your package.json to simplify the launch process. Open package.json and add the following line under the scripts section:
-
-json
-Copiar código
-"start": "electron ."
-Then, you can start the application with:
-
-bash
-Copiar código
+### 4. Run the Application
+To start the application, you can use an npm script defined in your `package.json`. Typically, this script looks something like:
+```json
+"scripts": {
+  "start": "electron ."
+}
+```
+Run the application using:
+```bash
 npm start
-This command tells Electron to run using the settings and files in your current project directory.
+```
+This command will launch the Electron application using the main script defined in your `package.json`.
 
-Step 5: Additional Configuration
-If your project requires additional environment setup or configuration files, provide those details here. For instance, setting up .env files or configuring additional services the app interacts with.
+## Additional Configuration (Optional)
+- **Electron Packager**: If you plan to package your Electron app for production, you might want to use Electron Packager or a similar tool. Install it via npm:
+  ```bash
+  npm install electron-packager --save-dev
+  ```
+  Use it to package your app:
+  ```bash
+  npx electron-packager . myAppName --platform=win32 --arch=x64
+  ```
 
-Step 6: Building the Application
-To distribute your application, you might want to package and build it for production. This can be done using tools like electron-packager or electron-builder. Install your chosen tool:
+## Troubleshooting
+- If you encounter any issues with `npm install`, ensure your Node.js and npm are up to date.
+- For problems related to Electron, check the official Electron documentation at [https://electronjs.org/docs](https://electronjs.org/docs) for guidance.
 
-bash
-Copiar código
-npm install electron-packager --save-dev
-And add a script in package.json to build the app:
+---
 
-json
-Copiar código
-"build": "electron-packager ."
-Run this command to build your app:
-
-bash
-Copiar código
-npm run build
-This will create a folder with your application compiled for your operating system.
-
-Final Note
-Ensure you provide any necessary instructions specific to your application’s configuration, such as API keys, additional services setup, or how to use any included developer tools.
-
-By following these instructions, anyone should be able to set up and start working with your Electron application from the state seen in the screenshot. Adjust the steps based on any specific configurations or environment details unique to your project.
+This setup guide will provide a clear starting point for any users who want to contribute to or run your Electron project. You can further customize the instructions as needed, especially if your project has specific requirements or additional setup steps.
