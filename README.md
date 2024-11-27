@@ -35,13 +35,6 @@ This project uses Electron to run. If it's not already listed in your `package.j
 npm install electron --save-dev
 ```
 
-### 4. Run the Application
-To start the application, you can use an npm script defined in your `package.json`. Typically, this script looks something like:
-```json
-"scripts": {
-  "start": "electron ."
-}
-```
 Run the application using:
 ```bash
 npm start
