@@ -62,10 +62,12 @@
 
   <!-- Contenedor principal -->
   <div class="container">
-    <!-- Barra de búsqueda -->
-    <div class="search-bar">
-      <input type="text" id="search-input" placeholder="Buscar...">
-    </div>
+
+    <!-- Global Search Bar -->
+<input id="global-search-input" type="text" placeholder="Search globally..." />
+
+<!-- Search Results for Global Search -->
+<div id="search-results" class="search-results"></div>
 
     <!-- Botones para seleccionar el juego al que se quiere imprimir el dashboard -->
     <div class="game-buttons">
@@ -85,7 +87,9 @@
           <img src="images/new_horizons.png" alt="New Horizons Dashboard">
       </button>
   </div>
-  
+
+  <!-- Local Search Bar (below the category links) -->
+<input id="local-search-input" type="text" placeholder="Search within category..." />
 
     <!-- Dashboard container -->
 <div id="dashboard" style="display: none;">

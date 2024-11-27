@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Función para mostrar el checklist y ocultar el dashboard
-function selectGameAndLoadDashboard(game, loadDashboard = true) {
+function selectGameAndLoadDashboard(game, loadDashboard = true) { 
     if (selectedGame === game && isDashboardLoaded && loadDashboard) {
         console.log("Dashboard is already loaded for this game");
         return; // Prevent reloading if already loaded
@@ -37,13 +37,13 @@ function selectGameAndLoadDashboard(game, loadDashboard = true) {
         isDashboardLoaded = true;
     } else {
         // Show checklist and hide dashboard
-        document.getElementById('checklist').style.display = 'none';
-        document.getElementById('dashboard').style.display = 'block';
-
+        document.getElementById('dashboard').style.display = 'none';
+        document.getElementById('checklist').style.display = 'block';
 
         isDashboardLoaded = false;
     }
 }
+
 
 
 // OLD VERSION // Main menu function to reset the dashboard state
@@ -59,11 +59,11 @@ function selectGameAndLoadDashboard(game, loadDashboard = true) {
         document.getElementById('checklist').style.display = 'block'; // Mostrar el checklist
         selectedGame = null; // Reiniciar el juego seleccionado
         
-        // Actualizar el contenido principal para mostrar el mensaje inicial
+        // Update main content to show initial message
         const checklist = document.getElementById('checklist');
         checklist.innerHTML = `<h2>Selecciona un juego para continuar.</h2>`;
         
-        // Ocultar las categorías hasta que se seleccione un juego
+        // Do not show categories until a game is selected
         const categoryLinks = document.querySelectorAll('.category-link');
         categoryLinks.forEach(link => {
             link.style.display = 'none';
@@ -72,14 +72,14 @@ function selectGameAndLoadDashboard(game, loadDashboard = true) {
     
     
     
-    // Función para desplazarse al inicio de la página
+    // Scroll to top function
     function scrollToTop() {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
     }
-// Mostrar/Ocultar el botón según el desplazamiento
+// Show/Hide scroll to top button
 window.addEventListener('scroll', () => {
 	const backToTopButton = document.getElementById('back-to-top');
 	if (window.scrollY > 200) {
@@ -91,7 +91,7 @@ window.addEventListener('scroll', () => {
 
 
 
-// Only one definition for capitalizeGameName function
+// Capitalize game name
 function capitalizeGameName(game) {
 	return game
 	  .split("_")
@@ -99,9 +99,7 @@ function capitalizeGameName(game) {
 	  .join(" ");
   }
 
-
-
-// Función para capitalizar categorías
+// Capitalize categories
 function capitalizeCategory(category) {
 	return category.charAt(0).toUpperCase() + category.slice(1);
 }
@@ -373,33 +371,40 @@ function renderAllItems(data, checklist) {
 }
 
 
-//SEARCH IN ITEMS AND SERIES
-// Función para buscar ítems y series
-document.getElementById('search-input').addEventListener('input', function() {
-	const searchText = this.value.toLowerCase();
-	const items = document.querySelectorAll('#checklist .item');
-	const seriesContainers = document.querySelectorAll('#checklist .series-container');
 
-	items.forEach(item => item.style.display = item.textContent.toLowerCase().includes(searchText) ? 'table-row' : 'none');
-	seriesContainers.forEach(series => {
-		const visibleItems = series.querySelectorAll('.item[style*="table-row"]');
-		series.style.display = visibleItems.length > 0 ? 'block' : 'none';
-	});
+
+
+
+
+// Local search functionality
+document.getElementById('local-search-input').addEventListener('input', function () {
+    const searchText = this.value.toLowerCase();
+    const items = document.querySelectorAll('#checklist .item');
+    const seriesContainers = document.querySelectorAll('#checklist .series-container');
+    
+    // Filter items
+    items.forEach(item =>
+        item.style.display = item.textContent.toLowerCase().includes(searchText) ? 'table-row' : 'none'
+    );
+    
+    // Filter series based on visible items
+    seriesContainers.forEach(series => {
+        const visibleItems = series.querySelectorAll('.item[style*="table-row"]');
+        series.style.display = visibleItems.length > 0 ? 'block' : 'none';
+    });
 });
-
-// FILENAME FOR INDEX
 
 
 
 // SAVE AND LOAD PROGRESS
 function loadSavedProgress(seriesName, itemName) {
-	const savedProgress = JSON.parse(localStorage.getItem('progress')) || {};
+    const savedProgress = JSON.parse(localStorage.getItem('progress')) || {};
 	return (
-	  savedProgress.root &&
-	  savedProgress.root[selectedGame] &&
-	  savedProgress.root[selectedGame][fileName] &&
-	  savedProgress.root[selectedGame][fileName][seriesName] &&
-	  savedProgress.root[selectedGame][fileName][seriesName][itemName]
+        savedProgress.root &&
+        savedProgress.root[selectedGame] &&
+        savedProgress.root[selectedGame][fileName] &&
+        savedProgress.root[selectedGame][fileName][seriesName] &&
+        savedProgress.root[selectedGame][fileName][seriesName][itemName]
 	);
 }
 
@@ -407,7 +412,7 @@ function saveProgress(seriesName, itemName, isChecked) {
     console.log("Saving progress for fileName:", fileName); // Verificar que fileName no esté vacío
 
     const savedProgress = JSON.parse(localStorage.getItem('progress')) || { root: {} };
-
+    
     if (!savedProgress.root[selectedGame]) {
         savedProgress.root[selectedGame] = {};
     }
@@ -425,10 +430,10 @@ function saveProgress(seriesName, itemName, isChecked) {
 
 // EXPORT AND IMPORT PROGRESS
 function exportProgress() {
-	const progress = JSON.parse(localStorage.getItem('progress')) || {};
+    const progress = JSON.parse(localStorage.getItem('progress')) || {};
 	const blob = new Blob([JSON.stringify(progress, null, 2)], { type: "application/json" });
 	const url = URL.createObjectURL(blob);
-
+    
 	const link = document.createElement('a');
 	link.href = url;
 	link.download = 'progress.json';
@@ -439,10 +444,10 @@ function exportProgress() {
 function importProgress(event) {
 	const file = event.target.files[0];
 	if (!file) return;
-
+    
 	const reader = new FileReader();
 	reader.onload = e => {
-	  try {
+        try {
 		const importedProgress = JSON.parse(e.target.result);
 		if (typeof importedProgress === 'object') {
 		  localStorage.setItem('progress', JSON.stringify(importedProgress));
@@ -451,33 +456,33 @@ function importProgress(event) {
 		} else {
 		  alert('El archivo no es válido.');
 		}
-	  } catch (error) {
+    } catch (error) {
 		alert('Error al importar progreso.');
 		console.error(error);
-	  }
-	};
-	reader.readAsText(file);
+    }
+};
+reader.readAsText(file);
 }
 
-  
+
 
 
 //new
 
 // Función para cargar el checklist de un juego seleccionado
 function loadChecklist(game) {
-	selectedGame = game;
+    selectedGame = game;
 	const checklist = document.getElementById('checklist');
 	const dashboard = document.getElementById('dashboard');
 	const categoryLinks = document.querySelectorAll('.category-link');
-
+    
 	// Mostrar el checklist y ocultar el dashboard
 	checklist.style.display = 'block';
 	dashboard.style.display = 'none';
-
+    
 	// Mostrar las categorías
 	categoryLinks.forEach(link => link.style.display = 'inline-block');
-
+    
 	// Actualizar el contenido principal para mostrar el juego seleccionado
 	checklist.innerHTML = `<h2>Juego seleccionado: ${capitalizeGameName(game)}</h2><p>Seleccione una categoría para ver los ítems.</p>`;
 }
@@ -511,23 +516,23 @@ function renderDashboardCharts(game) {
 
     // Retrieve progress data from localStorage
     const savedProgress = JSON.parse(localStorage.getItem("progress")) || {};
-
+    
     // Calcular el progreso completado para cada categoría
     Object.keys(categoryData).forEach(category => {
         const categoryProgress = savedProgress.root?.[game]?.[`${category}_${game}.json`] || {};
         let completedItems = 0;
-
+        
         // Contar elementos que tienen valor true en cada subcategoría
         Object.values(categoryProgress).forEach(subCategory => {
             if (typeof subCategory === 'object') {
                 completedItems += Object.values(subCategory).filter(isChecked => isChecked === true).length;
             }
         });
-
+        
         categoryData[category].completed = completedItems;
         overallData.completed += completedItems;
     });
-
+    
     // Renderizar los gráficos
     createProgressBarChart("overallChart", "Overall Progress", overallData);
     createProgressBarChart("furnitureChart", "Furniture Progress", categoryData.furniture);
@@ -543,18 +548,18 @@ function createProgressBarChart(canvasId, label, data) {
     if (chartInstances[canvasId]) {
         chartInstances[canvasId].destroy();
     }
-
+    
     const ctx = document.getElementById(canvasId).getContext("2d");
-
-// Crear un gradiente como color de fondo de la barra
-const gradient = ctx.createLinearGradient(0, 0, ctx.canvas.width, 0);
-gradient.addColorStop(0, '#4caf50');  // Color inicial (verde)
-gradient.addColorStop(1, '#81c784');  // Color final (verde claro)
-
-chartInstances[canvasId] = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: [label],
+    
+    // Crear un gradiente como color de fondo de la barra
+    const gradient = ctx.createLinearGradient(0, 0, ctx.canvas.width, 0);
+    gradient.addColorStop(0, '#4caf50');  // Color inicial (verde)
+    gradient.addColorStop(1, '#81c784');  // Color final (verde claro)
+    
+    chartInstances[canvasId] = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: [label],
         datasets: [
             {
                 label: `${data.completed}/${data.total}`,
@@ -612,24 +617,182 @@ chartInstances[canvasId] = new Chart(ctx, {
 function customTooltipHandler(context, label, data) {
     // Obtener el tooltip div
     const tooltipEl = document.getElementById('customTooltip');
-
+    
     // Mostrar el tooltip
     if (context.tooltip.opacity === 0) {
         tooltipEl.style.opacity = 0;
         tooltipEl.style.display = 'none';
         return;
     }
-
+    
     // Configurar el contenido del tooltip
     const tooltipData = context.tooltip.dataPoints[0];
     tooltipEl.innerHTML = `<strong>${label}</strong><br> Progreso: ${data.completed} / ${data.total}`;
-
+    
     // Hacer visible el tooltip
     tooltipEl.style.display = 'block';
     tooltipEl.style.opacity = 1;
-
+    
     // Posicionar el tooltip
     const position = context.chart.canvas.getBoundingClientRect();
     tooltipEl.style.left = position.left + window.pageXOffset + context.tooltip.caretX + 'px';
     tooltipEl.style.top = position.top + window.pageYOffset + context.tooltip.caretY + 'px';
 }
+
+let globalIndex = [];
+
+fetch('global_index.json')
+.then(response => response.json())
+.then(data => {
+    globalIndex = data; // Store the global index data
+  })
+  .catch(error => console.error('Error loading global index:', error));
+
+
+  //Search in all games
+
+  const globalSearchInput = document.getElementById('global-search-input');
+  const globalSearchResults = document.getElementById('search-results');
+  
+  fetch('global_index.json')
+    .then(response => response.json())
+    .then(data => {
+      globalIndex = data; // Store the global index data
+    })
+    .catch(error => console.error('Error loading global index:', error));
+  
+// Al escribir en el campo de búsqueda
+globalSearchInput.addEventListener('input', function () {
+    const searchText = this.value.toLowerCase();
+
+    // Filtrar resultados basados en el texto ingresado
+    if (searchText.trim()) {
+        const results = globalIndex.filter(item =>
+            item.name.toLowerCase().includes(searchText)
+        );
+
+        // Limpiar resultados previos
+        globalSearchResults.innerHTML = '';
+
+        // Mostrar resultados filtrados
+        results.forEach(result => {
+            const resultElement = document.createElement('div');
+            resultElement.classList.add('search-result');
+            resultElement.innerHTML = `
+                <a href="#" class="result-link" data-game="${result.game}" data-category="${result.category}" data-series="${result.series}">
+                    <strong>${result.name}</strong> (${result.category} - ${result.game})
+                </a><br>
+                Price: ${result.bells || 'N/A'}, Source: ${result.source || 'N/A'}
+            `;
+            globalSearchResults.appendChild(resultElement);
+        });
+
+        // Mostrar resultados si hay coincidencias
+        globalSearchResults.style.display = results.length > 0 ? 'block' : 'none';
+    } else {
+        // Ocultar resultados si no hay texto
+        globalSearchResults.style.display = 'none';
+    }
+});
+
+// Evento de clic en los hipervínculos de resultados
+globalSearchResults.addEventListener('click', function (event) {
+    const target = event.target.closest('.result-link'); // Detectar clic en enlaces
+    if (target) {
+        event.preventDefault(); // Evitar el comportamiento por defecto del hipervínculo
+
+        // Obtener datos del hipervínculo
+        const selectedGame = target.dataset.game;
+        const selectedCategory = target.dataset.category;
+        const targetSeries = target.dataset.series.replace(/\s+/g, '-'); // ID del contenedor de la serie
+        const targetItem = target.textContent.trim(); // Nombre del objeto
+
+        console.log('Datos del hipervínculo:', { selectedGame, selectedCategory, targetSeries, targetItem });
+
+        // Animar cierre de resultados con deslizamiento
+        animateSearchResultsClose(globalSearchResults, () => {
+            // Seleccionar el juego y mostrar la categoría específica
+            selectGameAndLoadDashboard(selectedGame, false);
+            showCategory(selectedCategory);
+
+            // Esperar hasta que el contenido esté cargado antes de desplazarse
+            setTimeout(() => {
+                scrollToSeriesAndHighlightItem(targetSeries, targetItem);
+            }, 500); // Ajuste del tiempo de espera
+        });
+    }
+});
+
+// Función para animar el cierre del área de resultados
+function animateSearchResultsClose(element, callback) {
+    element.style.transition = 'max-height 0.8s ease, opacity 0.8s ease'; // Animación más suave
+    element.style.maxHeight = '0';
+    element.style.opacity = '0';
+
+    setTimeout(() => {
+        element.style.display = 'none';
+        element.style.maxHeight = ''; // Restablecer para futuras búsquedas
+        element.style.opacity = '';
+        if (callback) callback();
+    }, 800); // Tiempo coincide con la transición
+}
+
+// Función para desplazarse a una serie y resaltar el objeto
+function scrollToSeriesAndHighlightItem(seriesId, targetItem) {
+    const seriesElement = document.getElementById(seriesId);
+
+    if (seriesElement) {
+        // Asegúrate de que la serie esté visible y desplázate
+        seriesElement.style.display = 'block';
+        seriesElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+        // Limpia el texto del targetItem para eliminar cualquier sufijo adicional
+        const cleanTargetItem = targetItem.replace(/\s*\(.*\)$/, '').trim();
+
+        // Busca la fila que coincide con el objeto objetivo
+        const targetRow = Array.from(seriesElement.querySelectorAll('.item')).find(item => {
+            const nameCell = item.querySelector('td:nth-child(2)'); // La celda del nombre es la segunda
+            return nameCell && nameCell.textContent.trim().toLowerCase() === cleanTargetItem.toLowerCase();
+        });
+
+        if (targetRow) {
+            console.log('Fila objetivo encontrada:', targetRow);
+
+            // Añade la clase de resaltado con animación
+            targetRow.classList.add('highlight');
+            
+            // Elimina el resaltado con transición suave después de 3.5 segundos
+            setTimeout(() => {
+                targetRow.classList.add('fade-highlight');
+                setTimeout(() => {
+                    targetRow.classList.remove('highlight', 'fade-highlight');
+                }, 1000); // Tiempo para el desvanecimiento
+            }, 3500);
+        } else {
+            console.warn('El objeto no se encontró en la tabla.');
+        }
+    } else {
+        console.error('La serie no se encontró.');
+    }
+}
+
+
+// Mostrar resultados al hacer clic dentro del campo (si hay texto)
+globalSearchInput.addEventListener('focus', function () {
+    const searchText = this.value.toLowerCase();
+    if (searchText.trim() && globalSearchResults.childElementCount > 0) {
+        globalSearchResults.style.display = 'block'; // Restaurar resultados
+    }
+});
+
+// Ocultar resultados al hacer clic fuera del campo
+document.addEventListener('click', function (e) {
+    if (!globalSearchInput.contains(e.target) && !globalSearchResults.contains(e.target)) {
+        globalSearchResults.style.display = 'none';
+    }
+});
+
+  
+
+
+

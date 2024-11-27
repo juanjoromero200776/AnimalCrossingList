@@ -1,0 +1,4538 @@
+[
+    {
+        "name": "Crucian carp",
+        "category": "fish",
+        "game": "gamecube",
+        "bells": 120,
+        "source": "All day",
+        "series": "River"
+    },
+    {
+        "name": "Carp",
+        "category": "fish",
+        "game": "gamecube",
+        "bells": 300,
+        "source": "All day",
+        "series": "River"
+    },
+    {
+        "name": "Koi",
+        "category": "fish",
+        "game": "gamecube",
+        "bells": 2000,
+        "source": "4 PM - 9 AM",
+        "series": "River"
+    },
+    {
+        "name": "Barbel steed",
+        "category": "fish",
+        "game": "gamecube",
+        "bells": 200,
+        "source": "All day",
+        "series": "River"
+    },
+    {
+        "name": "Dace",
+        "category": "fish",
+        "game": "gamecube",
+        "bells": 200,
+        "source": "4 PM - 9 AM",
+        "series": "River"
+    },
+    {
+        "name": "Catfish",
+        "category": "fish",
+        "game": "gamecube",
+        "bells": 800,
+        "source": "4 PM - 9 AM",
+        "series": "River"
+    },
+    {
+        "name": "Brook trout",
+        "category": "fish",
+        "game": "gamecube",
+        "bells": 150,
+        "source": "All day",
+        "series": "Lake"
+    },
+    {
+        "name": "Blue Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2100,
+        "source": "Redd",
+        "series": "Blue Series"
+    },
+    {
+        "name": "Blue Bench",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": null,
+        "series": "Blue Series"
+    },
+    {
+        "name": "Blue Bookcase",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": null,
+        "series": "Blue Series"
+    },
+    {
+        "name": "Blue Bureau",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2160,
+        "source": null,
+        "series": "Blue Series"
+    },
+    {
+        "name": "Blue Cabinet",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2400,
+        "source": null,
+        "series": "Blue Series"
+    },
+    {
+        "name": "Blue Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": null,
+        "series": "Blue Series"
+    },
+    {
+        "name": "Blue Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Blue Series"
+    },
+    {
+        "name": "Blue Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2100,
+        "source": "Lottery",
+        "series": "Blue Series"
+    },
+    {
+        "name": "Blue Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": "Redd",
+        "series": "Blue Series"
+    },
+    {
+        "name": "Blue Wardrobe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1920,
+        "source": null,
+        "series": "Blue Series"
+    },
+    {
+        "name": "Cabana Armchair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": "Lottery",
+        "series": "Cabana Series"
+    },
+    {
+        "name": "Cabana Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": "Redd",
+        "series": "Cabana Series"
+    },
+    {
+        "name": "Cabana Bookcase",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2400,
+        "source": null,
+        "series": "Cabana Series"
+    },
+    {
+        "name": "Cabana Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": "Redd",
+        "series": "Cabana Series"
+    },
+    {
+        "name": "Cabana Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2400,
+        "source": null,
+        "series": "Cabana Series"
+    },
+    {
+        "name": "Cabana Lamp",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Cabana Series"
+    },
+    {
+        "name": "Cabana Screen",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2000,
+        "source": null,
+        "series": "Cabana Series"
+    },
+    {
+        "name": "Cabana Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Cabana Series"
+    },
+    {
+        "name": "Cabana Vanity",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Cabana Series"
+    },
+    {
+        "name": "Cabana Wardrobe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2240,
+        "source": null,
+        "series": "Cabana Series"
+    },
+    {
+        "name": "Cabin Armchair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2280,
+        "source": null,
+        "series": "Cabin Series"
+    },
+    {
+        "name": "Cabin Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2100,
+        "source": null,
+        "series": "Cabin Series"
+    },
+    {
+        "name": "Cabin Bookcase",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2300,
+        "source": "Lottery",
+        "series": "Cabin Series"
+    },
+    {
+        "name": "Cabin Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": "Redd",
+        "series": "Cabin Series"
+    },
+    {
+        "name": "Cabin Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2480,
+        "source": null,
+        "series": "Cabin Series"
+    },
+    {
+        "name": "Cabin Couch",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2480,
+        "source": null,
+        "series": "Cabin Series"
+    },
+    {
+        "name": "Cabin Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2160,
+        "source": "Redd",
+        "series": "Cabin Series"
+    },
+    {
+        "name": "Cabin Low Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2480,
+        "source": null,
+        "series": "Cabin Series"
+    },
+    {
+        "name": "Cabin Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2100,
+        "source": null,
+        "series": "Cabin Series"
+    },
+    {
+        "name": "Cabin Wardrobe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2480,
+        "source": null,
+        "series": "Cabin Series"
+    },
+    {
+        "name": "Classic Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2520,
+        "source": null,
+        "series": "Classic Series"
+    },
+    {
+        "name": "Classic Cabinet",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2560,
+        "source": null,
+        "series": "Classic Series"
+    },
+    {
+        "name": "Classic Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Classic Series"
+    },
+    {
+        "name": "Classic Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2180,
+        "source": null,
+        "series": "Classic Series"
+    },
+    {
+        "name": "Classic Desk",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": null,
+        "series": "Classic Series"
+    },
+    {
+        "name": "Classic Hutch",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3360,
+        "source": "Lottery",
+        "series": "Classic Series"
+    },
+    {
+        "name": "Classic Sofa",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2240,
+        "source": null,
+        "series": "Classic Series"
+    },
+    {
+        "name": "Classic Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Classic Series"
+    },
+    {
+        "name": "Classic Vanity",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2560,
+        "source": "Redd",
+        "series": "Classic Series"
+    },
+    {
+        "name": "Classic Wardrobe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2560,
+        "source": "Redd",
+        "series": "Classic Series"
+    },
+    {
+        "name": "Exotic Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2540,
+        "source": "Redd",
+        "series": "Exotic Series"
+    },
+    {
+        "name": "Exotic Bench",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": null,
+        "series": "Exotic Series"
+    },
+    {
+        "name": "Exotic Bureau",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2180,
+        "source": null,
+        "series": "Exotic Series"
+    },
+    {
+        "name": "Exotic Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2180,
+        "source": null,
+        "series": "Exotic Series"
+    },
+    {
+        "name": "Exotic Chest",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Exotic Series"
+    },
+    {
+        "name": "Exotic End Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Exotic Series"
+    },
+    {
+        "name": "Exotic Lamp",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": "Lottery",
+        "series": "Exotic Series"
+    },
+    {
+        "name": "Exotic Screen",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2250,
+        "source": null,
+        "series": "Exotic Series"
+    },
+    {
+        "name": "Exotic Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2300,
+        "source": "Redd",
+        "series": "Exotic Series"
+    },
+    {
+        "name": "Exotic Wardrobe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2180,
+        "source": null,
+        "series": "Exotic Series"
+    },
+    {
+        "name": "Green Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2160,
+        "source": null,
+        "series": "Green Series"
+    },
+    {
+        "name": "Green Bench",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Green Series"
+    },
+    {
+        "name": "Green Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Green Series"
+    },
+    {
+        "name": "Green Counter",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2400,
+        "source": null,
+        "series": "Green Series"
+    },
+    {
+        "name": "Green Desk",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2000,
+        "source": null,
+        "series": "Green Series"
+    },
+    {
+        "name": "Green Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2320,
+        "source": "Redd",
+        "series": "Green Series"
+    },
+    {
+        "name": "Green Lamp",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Green Series"
+    },
+    {
+        "name": "Green Pantry",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2290,
+        "source": "Lottery",
+        "series": "Green Series"
+    },
+    {
+        "name": "Green Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Green Series"
+    },
+    {
+        "name": "Green Wardrobe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2300,
+        "source": "Redd",
+        "series": "Green Series"
+    },
+    {
+        "name": "Kiddie Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2100,
+        "source": "Redd",
+        "series": "Kiddie Series"
+    },
+    {
+        "name": "Kiddie Bookcase",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Kiddie Series"
+    },
+    {
+        "name": "Kiddie Bureau",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": null,
+        "series": "Kiddie Series"
+    },
+    {
+        "name": "Kiddie Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Kiddie Series"
+    },
+    {
+        "name": "Kiddie Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1480,
+        "source": "Redd",
+        "series": "Kiddie Series"
+    },
+    {
+        "name": "Kiddie Couch",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": null,
+        "series": "Kiddie Series"
+    },
+    {
+        "name": "Kiddie Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2150,
+        "source": null,
+        "series": "Kiddie Series"
+    },
+    {
+        "name": "Kiddie Stereo",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": "Lottery",
+        "series": "Kiddie Series"
+    },
+    {
+        "name": "Kiddie Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": null,
+        "series": "Kiddie Series"
+    },
+    {
+        "name": "Kiddie Wardrobe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2180,
+        "source": null,
+        "series": "Kiddie Series"
+    },
+    {
+        "name": "Lovely Armchair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2000,
+        "source": null,
+        "series": "Lovely Series"
+    },
+    {
+        "name": "Lovely Armoire",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2240,
+        "source": null,
+        "series": "Lovely Series"
+    },
+    {
+        "name": "Lovely Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2000,
+        "source": null,
+        "series": "Lovely Series"
+    },
+    {
+        "name": "Lovely Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Lovely Series"
+    },
+    {
+        "name": "Lovely Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2160,
+        "source": null,
+        "series": "Lovely Series"
+    },
+    {
+        "name": "Lovely End Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": "Redd",
+        "series": "Lovely Series"
+    },
+    {
+        "name": "Lovely Kitchen",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2280,
+        "source": "Lottery",
+        "series": "Lovely Series"
+    },
+    {
+        "name": "Lovely Lamp",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Lovely Series"
+    },
+    {
+        "name": "Lovely Phone",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Mother's Day Gift",
+        "series": "Lovely Series"
+    },
+    {
+        "name": "Lovely Stereo",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 7920,
+        "source": "Redd",
+        "series": "Lovely Series"
+    },
+    {
+        "name": "Lovely Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Lovely Series"
+    },
+    {
+        "name": "Lovely Vanity",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": null,
+        "series": "Lovely Series"
+    },
+    {
+        "name": "Modern Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2320,
+        "source": null,
+        "series": "Modern Series"
+    },
+    {
+        "name": "Modern Cabinet",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2580,
+        "source": "Lottery",
+        "series": "Modern Series"
+    },
+    {
+        "name": "Modern Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1500,
+        "source": null,
+        "series": "Modern Series"
+    },
+    {
+        "name": "Modern Desk",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2480,
+        "source": null,
+        "series": "Modern Series"
+    },
+    {
+        "name": "Modern Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2250,
+        "source": null,
+        "series": "Modern Series"
+    },
+    {
+        "name": "Modern End Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": "Redd",
+        "series": "Modern Series"
+    },
+    {
+        "name": "Modern Lamp",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Modern Series"
+    },
+    {
+        "name": "Modern Sofa",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2620,
+        "source": null,
+        "series": "Modern Series"
+    },
+    {
+        "name": "Modern Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Modern Series"
+    },
+    {
+        "name": "Modern Wardrobe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2560,
+        "source": "Redd",
+        "series": "Modern Series"
+    },
+    {
+        "name": "Ranch Armchair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2000,
+        "source": null,
+        "series": "Ranch Series"
+    },
+    {
+        "name": "Ranch Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2000,
+        "source": null,
+        "series": "Ranch Series"
+    },
+    {
+        "name": "Ranch Bookcase",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2000,
+        "source": null,
+        "series": "Ranch Series"
+    },
+    {
+        "name": "Ranch Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": "Redd",
+        "series": "Ranch Series"
+    },
+    {
+        "name": "Ranch Couch",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2400,
+        "source": null,
+        "series": "Ranch Series"
+    },
+    {
+        "name": "Ranch Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2720,
+        "source": "Redd",
+        "series": "Ranch Series"
+    },
+    {
+        "name": "Ranch Hutch",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2560,
+        "source": "Lottery",
+        "series": "Ranch Series"
+    },
+    {
+        "name": "Ranch Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Ranch Series"
+    },
+    {
+        "name": "Ranch Tea Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Ranch Series"
+    },
+    {
+        "name": "Ranch Wardrobe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3050,
+        "source": null,
+        "series": "Ranch Series"
+    },
+    {
+        "name": "Regal Armoire",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3820,
+        "source": null,
+        "series": "Regal Series"
+    },
+    {
+        "name": "Regal Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3120,
+        "source": "Redd",
+        "series": "Regal Series"
+    },
+    {
+        "name": "Regal Bookcase",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3120,
+        "source": null,
+        "series": "Regal Series"
+    },
+    {
+        "name": "Regal Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2100,
+        "source": "Redd",
+        "series": "Regal Series"
+    },
+    {
+        "name": "Regal Cupboard",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3360,
+        "source": "Lottery",
+        "series": "Regal Series"
+    },
+    {
+        "name": "Regal Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3520,
+        "source": null,
+        "series": "Regal Series"
+    },
+    {
+        "name": "Regal Lamp",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2400,
+        "source": null,
+        "series": "Regal Series"
+    },
+    {
+        "name": "Regal Sofa",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3100,
+        "source": null,
+        "series": "Regal Series"
+    },
+    {
+        "name": "Regal Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2540,
+        "source": null,
+        "series": "Regal Series"
+    },
+    {
+        "name": "Regal Vanity",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3200,
+        "source": null,
+        "series": "Regal Series"
+    },
+    {
+        "name": "Harvest Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Harvest Series"
+    },
+    {
+        "name": "Harvest Bureau",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Harvest Series"
+    },
+    {
+        "name": "Harvest Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Harvest Series"
+    },
+    {
+        "name": "Harvest Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Harvest Series"
+    },
+    {
+        "name": "Harvest Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Harvest Series"
+    },
+    {
+        "name": "Harvest Lamp",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Harvest Series"
+    },
+    {
+        "name": "Harvest Mirror",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Harvest Series"
+    },
+    {
+        "name": "Harvest Sofa",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Harvest Series"
+    },
+    {
+        "name": "Harvest Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Harvest Series"
+    },
+    {
+        "name": "Harvest TV",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Harvest Series"
+    },
+    {
+        "name": "Big Festive Tree",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Jingle Series"
+    },
+    {
+        "name": "Festive Tree",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Jingle Series"
+    },
+    {
+        "name": "Jingle Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Jingle Series"
+    },
+    {
+        "name": "Jingle Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Jingle Series"
+    },
+    {
+        "name": "Jingle Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Jingle Series"
+    },
+    {
+        "name": "Jingle Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Jingle Series"
+    },
+    {
+        "name": "Jingle Lamp",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Jingle Series"
+    },
+    {
+        "name": "Jingle Piano",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Jingle Series"
+    },
+    {
+        "name": "Jingle Shelves",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Jingle Series"
+    },
+    {
+        "name": "Jingle Sofa",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Jingle Series"
+    },
+    {
+        "name": "Jingle Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Jingle Series"
+    },
+    {
+        "name": "Jingle Wardrobe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Jingle Series"
+    },
+    {
+        "name": "Spooky Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Spooky Series"
+    },
+    {
+        "name": "Spooky Bookcase",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Spooky Series"
+    },
+    {
+        "name": "Spooky Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Spooky Series"
+    },
+    {
+        "name": "Spooky Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Spooky Series"
+    },
+    {
+        "name": "Spooky Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Spooky Series"
+    },
+    {
+        "name": "Spooky Lamp",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Spooky Series"
+    },
+    {
+        "name": "Spooky Sofa",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Spooky Series"
+    },
+    {
+        "name": "Spooky Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Spooky Series"
+    },
+    {
+        "name": "Spooky Vanity",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Spooky Series"
+    },
+    {
+        "name": "Spooky Wardrobe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Spooky Series"
+    },
+    {
+        "name": "Snowman Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Snowman Series"
+    },
+    {
+        "name": "Snowman Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Snowman Series"
+    },
+    {
+        "name": "Snowman Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Snowman Series"
+    },
+    {
+        "name": "Snowman Dresser",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Snowman Series"
+    },
+    {
+        "name": "Snowman Fridge",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Snowman Series"
+    },
+    {
+        "name": "Snowman Lamp",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Snowman Series"
+    },
+    {
+        "name": "Snowman Sofa",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Snowman Series"
+    },
+    {
+        "name": "Snowman Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Snowman Series"
+    },
+    {
+        "name": "Snowman TV",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Snowman Series"
+    },
+    {
+        "name": "Snowman Wardrobe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Snowman Series"
+    },
+    {
+        "name": "Backyard Pool",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 990,
+        "source": "Redd",
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Barbecue",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1760,
+        "source": null,
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Bird Bath",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1450,
+        "source": null,
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Bird Feeder",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1260,
+        "source": null,
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Birdhouse",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1620,
+        "source": null,
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Bug Zapper",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Garden Gnome",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3380,
+        "source": "Lottery",
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Hammock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1320,
+        "source": null,
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Lawn Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1180,
+        "source": null,
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Lawn Mower",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2760,
+        "source": "Redd",
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Mr. Flamingo",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1530,
+        "source": null,
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Mrs. Flamingo",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1530,
+        "source": null,
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Picnic Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1390,
+        "source": null,
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Sprinkler",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1640,
+        "source": null,
+        "series": "Backyard Series"
+    },
+    {
+        "name": "Blue Corner",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 6800,
+        "source": "Lottery",
+        "series": "Boxing Series"
+    },
+    {
+        "name": "Boxing Barricade",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1050,
+        "source": null,
+        "series": "Boxing Series"
+    },
+    {
+        "name": "Boxing Mat",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1180,
+        "source": null,
+        "series": "Boxing Series"
+    },
+    {
+        "name": "Judge's Bell",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1790,
+        "source": null,
+        "series": "Boxing Series"
+    },
+    {
+        "name": "Neutral Corner",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 5500,
+        "source": null,
+        "series": "Boxing Series"
+    },
+    {
+        "name": "Red Corner",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 6800,
+        "source": "Redd",
+        "series": "Boxing Series"
+    },
+    {
+        "name": "Ringside Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1320,
+        "source": null,
+        "series": "Boxing Series"
+    },
+    {
+        "name": "Sandbag",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3190,
+        "source": null,
+        "series": "Boxing Series"
+    },
+    {
+        "name": "Speed Bag",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2990,
+        "source": null,
+        "series": "Boxing Series"
+    },
+    {
+        "name": "Weight Bench",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3590,
+        "source": null,
+        "series": "Boxing Series"
+    },
+    {
+        "name": "Black Bishop",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2800,
+        "source": "Redd",
+        "series": "Chess Series"
+    },
+    {
+        "name": "Black King",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 23200,
+        "source": "Lottery",
+        "series": "Chess Series"
+    },
+    {
+        "name": "Black Knight",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2800,
+        "source": "Redd",
+        "series": "Chess Series"
+    },
+    {
+        "name": "Black Pawn",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1000,
+        "source": null,
+        "series": "Chess Series"
+    },
+    {
+        "name": "Black Rook",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2800,
+        "source": "Redd",
+        "series": "Chess Series"
+    },
+    {
+        "name": "Black Queen",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 23200,
+        "source": "Lottery",
+        "series": "Chess Series"
+    },
+    {
+        "name": "White Bishop",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2800,
+        "source": "Redd",
+        "series": "Chess Series"
+    },
+    {
+        "name": "White King",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 23200,
+        "source": "Lottery",
+        "series": "Chess Series"
+    },
+    {
+        "name": "White Knight",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2800,
+        "source": "Redd",
+        "series": "Chess Series"
+    },
+    {
+        "name": "White Pawn",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1000,
+        "source": null,
+        "series": "Chess Series"
+    },
+    {
+        "name": "White Rook",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2800,
+        "source": "Redd",
+        "series": "Chess Series"
+    },
+    {
+        "name": "White Queen",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 23200,
+        "source": "Lottery",
+        "series": "Chess Series"
+    },
+    {
+        "name": "Cement Mixer",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": "Lottery",
+        "series": "Construction Series"
+    },
+    {
+        "name": "Detour Arrow",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 600,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Detour Sign",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 830,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Flagman Sign",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 850,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Green Drum",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Handcart",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Haz-Mat Barrel",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 830,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Iron Frame",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Jackhammer",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1880,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Jersey Barrier",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1050,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Manhole Cover",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1000,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Men at Work Sign",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 850,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Merge Sign",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 850,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Oil Drum",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 840,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Orange Cone",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 600,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Saw Horse",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 900,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Speed Sign",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 870,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Steamroller",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 4500,
+        "source": "Redd",
+        "series": "Construction Series"
+    },
+    {
+        "name": "Traffic Cone",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Wet Roadway Sign",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 850,
+        "source": null,
+        "series": "Construction Series"
+    },
+    {
+        "name": "Deer Scare",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": "Redd",
+        "series": "Mossy Garden Series"
+    },
+    {
+        "name": "Garden Pond",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2580,
+        "source": "Lottery",
+        "series": "Mossy Garden Series"
+    },
+    {
+        "name": "Low Lantern",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2100,
+        "source": null,
+        "series": "Mossy Garden Series"
+    },
+    {
+        "name": "Pond Lantern",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1980,
+        "source": null,
+        "series": "Mossy Garden Series"
+    },
+    {
+        "name": "Shrine Lantern",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1980,
+        "source": null,
+        "series": "Mossy Garden Series"
+    },
+    {
+        "name": "Tall Lantern",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1980,
+        "source": null,
+        "series": "Mossy Garden Series"
+    },
+    {
+        "name": "Dark Stone",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": null,
+        "series": "Rock Garden Series"
+    },
+    {
+        "name": "Garden Stone",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": null,
+        "series": "Rock Garden Series"
+    },
+    {
+        "name": "Leaning Stone",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2100,
+        "source": null,
+        "series": "Rock Garden Series"
+    },
+    {
+        "name": "Mossy Stone",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2160,
+        "source": null,
+        "series": "Rock Garden Series"
+    },
+    {
+        "name": "Standing Stone",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2500,
+        "source": null,
+        "series": "Rock Garden Series"
+    },
+    {
+        "name": "Stone Couple",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2380,
+        "source": null,
+        "series": "Rock Garden Series"
+    },
+    {
+        "name": "Teacher's Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1440,
+        "source": null,
+        "series": "Classroom Series"
+    },
+    {
+        "name": "Chalk Board",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Classroom Series"
+    },
+    {
+        "name": "Cubby Hole",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": null,
+        "series": "Classroom Series"
+    },
+    {
+        "name": "Flip-Top Desk",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1320,
+        "source": null,
+        "series": "Classroom Series"
+    },
+    {
+        "name": "Folding Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 600,
+        "source": null,
+        "series": "Classroom Series"
+    },
+    {
+        "name": "Lefty Desk",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1240,
+        "source": null,
+        "series": "Classroom Series"
+    },
+    {
+        "name": "Letter Cubby",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2300,
+        "source": "Redd",
+        "series": "Classroom Series"
+    },
+    {
+        "name": "Righty Desk",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1240,
+        "source": null,
+        "series": "Classroom Series"
+    },
+    {
+        "name": "Hamster Cage",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2290,
+        "source": "Lottery",
+        "series": "Classroom Series"
+    },
+    {
+        "name": "School Desk",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1320,
+        "source": null,
+        "series": "Classroom Series"
+    },
+    {
+        "name": "Science Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": null,
+        "series": "Classroom Series"
+    },
+    {
+        "name": "Teacher's Desk",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1580,
+        "source": null,
+        "series": "Classroom Series"
+    },
+    {
+        "name": "Vaulting Horse",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Classroom Series"
+    },
+    {
+        "name": "Asteroid",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Space Series"
+    },
+    {
+        "name": "Flying Saucer",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2400,
+        "source": null,
+        "series": "Space Series"
+    },
+    {
+        "name": "Lunar Lander",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3200,
+        "source": null,
+        "series": "Space Series"
+    },
+    {
+        "name": "Lunar Rover",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2560,
+        "source": null,
+        "series": "Space Series"
+    },
+    {
+        "name": "Rocket",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2400,
+        "source": null,
+        "series": "Space Series"
+    },
+    {
+        "name": "Satellite",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2600,
+        "source": null,
+        "series": "Space Series"
+    },
+    {
+        "name": "Space Shuttle",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2780,
+        "source": null,
+        "series": "Space Series"
+    },
+    {
+        "name": "Space Station",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2800,
+        "source": null,
+        "series": "Space Series"
+    },
+    {
+        "name": "Spaceman Sam",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2800,
+        "source": null,
+        "series": "Space Series"
+    },
+    {
+        "name": "Covered Wagon",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3800,
+        "source": "Lottery",
+        "series": "Western Series"
+    },
+    {
+        "name": "Cow Skull",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1020,
+        "source": null,
+        "series": "Western Series"
+    },
+    {
+        "name": "Desert Cactus",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 890,
+        "source": null,
+        "series": "Western Series"
+    },
+    {
+        "name": "Saddle Fence",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2180,
+        "source": "Redd",
+        "series": "Western Series"
+    },
+    {
+        "name": "Storefront",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3680,
+        "source": null,
+        "series": "Western Series"
+    },
+    {
+        "name": "Tumbleweed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 520,
+        "source": null,
+        "series": "Western Series"
+    },
+    {
+        "name": "Wagon Wheel",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1230,
+        "source": null,
+        "series": "Western Series"
+    },
+    {
+        "name": "Watering Trough",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1100,
+        "source": null,
+        "series": "Western Series"
+    },
+    {
+        "name": "Well",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2700,
+        "source": "Redd",
+        "series": "Western Series"
+    },
+    {
+        "name": "Apple Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Apple Set"
+    },
+    {
+        "name": "Apple TV",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Apple Set"
+    },
+    {
+        "name": "Baby Bear",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Teddy Bear Set"
+    },
+    {
+        "name": "Mama Bear",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Teddy Bear Set"
+    },
+    {
+        "name": "Papa Bear",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": null,
+        "series": "Teddy Bear Set"
+    },
+    {
+        "name": "Mugho Bonsai",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Bonsai Set"
+    },
+    {
+        "name": "Pine Bonsai",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Bonsai Set"
+    },
+    {
+        "name": "Pondarosa Bonsai",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Bonsai Set"
+    },
+    {
+        "name": "Cactus",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Cactus Set"
+    },
+    {
+        "name": "Round Cactus",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Cactus Set"
+    },
+    {
+        "name": "Tall Cactus",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Cactus Set"
+    },
+    {
+        "name": "Grapefruit Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1500,
+        "source": null,
+        "series": "Citrus Set"
+    },
+    {
+        "name": "Lemon Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1500,
+        "source": null,
+        "series": "Citrus Set"
+    },
+    {
+        "name": "Lime Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "Citrus Set"
+    },
+    {
+        "name": "Orange Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "Citrus Set"
+    },
+    {
+        "name": "Daffodil Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Daffodil Set"
+    },
+    {
+        "name": "Daffodil Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": null,
+        "series": "Daffodil Set"
+    },
+    {
+        "name": "Iris Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Iris Flower Set"
+    },
+    {
+        "name": "Iris Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": null,
+        "series": "Iris Flower Set"
+    },
+    {
+        "name": "Conga Drum",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Drum Set"
+    },
+    {
+        "name": "Djimbe Drum",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": null,
+        "series": "Drum Set"
+    },
+    {
+        "name": "Tinpano Drum",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2100,
+        "source": "Redd",
+        "series": "Drum Set"
+    },
+    {
+        "name": "Aiko Figurine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Figurine Set"
+    },
+    {
+        "name": "Emi Figurine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Figurine Set"
+    },
+    {
+        "name": "Keiko Figurine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Figurine Set"
+    },
+    {
+        "name": "Maki Figurine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Figurine Set"
+    },
+    {
+        "name": "Naomi Figurine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Figurine Set"
+    },
+    {
+        "name": "Yoko Figurine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Figurine Set"
+    },
+    {
+        "name": "Yuki Figurine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Figurine Set"
+    },
+    {
+        "name": "Froggy Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Frog Set"
+    },
+    {
+        "name": "Lily-pad Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Frog Set"
+    },
+    {
+        "name": "Country Guitar",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Guitar Set"
+    },
+    {
+        "name": "Folk Guitar",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Guitar Set"
+    },
+    {
+        "name": "Rock Guitar",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Guitar Set"
+    },
+    {
+        "name": "Luigi Trophy",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 7000,
+        "source": "Lottery/Redd",
+        "series": "Lucky Nintendo Set"
+    },
+    {
+        "name": "Mario Trophy",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 7000,
+        "source": "Lottery",
+        "series": "Lucky Nintendo Set"
+    },
+    {
+        "name": "Melon Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "Melon Set"
+    },
+    {
+        "name": "Watermelon Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "Melon Set"
+    },
+    {
+        "name": "Watermelon Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Melon Set"
+    },
+    {
+        "name": "Arwing",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 25600,
+        "source": "Lottery",
+        "series": "Nintendo Set"
+    },
+    {
+        "name": "G Logo",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2500,
+        "source": null,
+        "series": "Nintendo Set"
+    },
+    {
+        "name": "Master Sword",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2800,
+        "source": null,
+        "series": "Nintendo Set"
+    },
+    {
+        "name": "N Logo",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2400,
+        "source": null,
+        "series": "Nintendo Set"
+    },
+    {
+        "name": "Office Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1100,
+        "source": null,
+        "series": "Office Set"
+    },
+    {
+        "name": "Office Desk",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Office Set"
+    },
+    {
+        "name": "Office Locker",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Office Set"
+    },
+    {
+        "name": "Pine Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Pine Wood Set"
+    },
+    {
+        "name": "Pine Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2280,
+        "source": null,
+        "series": "Pine Wood Set"
+    },
+    {
+        "name": "Bear Pole",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Totem Pole Set"
+    },
+    {
+        "name": "Eagle Pole",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Totem Pole Set"
+    },
+    {
+        "name": "Frog Woman Pole",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": "Redd",
+        "series": "Totem Pole Set"
+    },
+    {
+        "name": "Raven Pole",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Totem Pole Set"
+    },
+    {
+        "name": "Blue Vase",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2500,
+        "source": null,
+        "series": "Vase Set"
+    },
+    {
+        "name": "Red Vase",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2450,
+        "source": null,
+        "series": "Vase Set"
+    },
+    {
+        "name": "Tea Vase",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2400,
+        "source": null,
+        "series": "Vase Set"
+    },
+    {
+        "name": "Candy Machine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": null,
+        "series": "Vending Machine Set"
+    },
+    {
+        "name": "Coffee Machine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2100,
+        "source": null,
+        "series": "Vending Machine Set"
+    },
+    {
+        "name": "Pop Machine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3250,
+        "source": "Lottery",
+        "series": "Vending Machine Set"
+    },
+    {
+        "name": "Soda Machine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Vending Machine Set"
+    },
+    {
+        "name": "Globe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Study Set"
+    },
+    {
+        "name": "Writing Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1000,
+        "source": null,
+        "series": "Study Set"
+    },
+    {
+        "name": "Writing Desk",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": null,
+        "series": "Study Set"
+    },
+    {
+        "name": "Barber's Pole",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Barrel",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Billiard Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Birdcage",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Bus Stop",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 820,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Chess Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Computer",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1820,
+        "source": "Redd",
+        "series": "Household Items"
+    },
+    {
+        "name": "Elephant Slide",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Executive Toy",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1100,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Extinguisher",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Fan",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Garbage Can",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 500,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Glass Top Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Hinaningyo",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2560,
+        "source": "Redd",
+        "series": "Household Items"
+    },
+    {
+        "name": "Keg",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Mochi Pestle",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Nook's Portrait",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 480,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Orange Box",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 80,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Pineapple Bed",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1990,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Potbelly Stove",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2000,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Slot Machine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 777,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Stove",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1980,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Radiator",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2380,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Refrigerator",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Retro TV",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Rocking Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Samurai Suit",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 4500,
+        "source": "Lottery",
+        "series": "Household Items"
+    },
+    {
+        "name": "Scale",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Sewing Machine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1350,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Space Heater",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Super Toilet",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1980,
+        "source": "Redd",
+        "series": "Household Items"
+    },
+    {
+        "name": "Table Tennis",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Tanabata Palm",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1925,
+        "source": "Redd",
+        "series": "Household Items"
+    },
+    {
+        "name": "Tea Set",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 300,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Toilet",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Train Set",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Trash Bin",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 500,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Water Bird",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Wide-screen TV",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2200,
+        "source": "Redd",
+        "series": "Household Items"
+    },
+    {
+        "name": "Wobbelina",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 700,
+        "source": null,
+        "series": "Household Items"
+    },
+    {
+        "name": "Biwa Lute",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Instruments"
+    },
+    {
+        "name": "Ebony Piano",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3800,
+        "source": "Redd",
+        "series": "Instruments"
+    },
+    {
+        "name": "Harp",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Instruments"
+    },
+    {
+        "name": "Ivory Piano",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3500,
+        "source": "Lottery",
+        "series": "Instruments"
+    },
+    {
+        "name": "Metronome",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1000,
+        "source": null,
+        "series": "Instruments"
+    },
+    {
+        "name": "Taiko Drum",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "Instruments"
+    },
+    {
+        "name": "Vibraphone",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": null,
+        "series": "Instruments"
+    },
+    {
+        "name": "Daffodil",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 680,
+        "source": null,
+        "series": "Flowers"
+    },
+    {
+        "name": "Gerbera",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 780,
+        "source": null,
+        "series": "Flowers"
+    },
+    {
+        "name": "Sunflower",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 980,
+        "source": null,
+        "series": "Flowers"
+    },
+    {
+        "name": "Blue Golf Bag",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Golf Bags"
+    },
+    {
+        "name": "Green Golf Bag",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Golf Bags"
+    },
+    {
+        "name": "White Golf Bag",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Golf Bags"
+    },
+    {
+        "name": "Cream Sofa",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2000,
+        "source": null,
+        "series": "Extra Furniture"
+    },
+    {
+        "name": "Gold Econo-chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Extra Furniture"
+    },
+    {
+        "name": "Red Sofa",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2050,
+        "source": null,
+        "series": "Extra Furniture"
+    },
+    {
+        "name": "Jade Econo-chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Extra Furniture"
+    },
+    {
+        "name": "Red Armchair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Extra Furniture"
+    },
+    {
+        "name": "Rocking Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Extra Furniture"
+    },
+    {
+        "name": "Ruby Econo-chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 800,
+        "source": null,
+        "series": "Extra Furniture"
+    },
+    {
+        "name": "Alarm Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1000,
+        "source": null,
+        "series": "Clocks"
+    },
+    {
+        "name": "Antique Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2350,
+        "source": null,
+        "series": "Clocks"
+    },
+    {
+        "name": "Cube Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1100,
+        "source": null,
+        "series": "Clocks"
+    },
+    {
+        "name": "Glow Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1500,
+        "source": null,
+        "series": "Clocks"
+    },
+    {
+        "name": "Kitschy Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Clocks"
+    },
+    {
+        "name": "Odd Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Clocks"
+    },
+    {
+        "name": "Owl Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "Clocks"
+    },
+    {
+        "name": "Red Clock",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "Clocks"
+    },
+    {
+        "name": "Azalea Bonsai",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1500,
+        "source": null,
+        "series": "Bonsai Trees"
+    },
+    {
+        "name": "Hawthorn Bonsai",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1800,
+        "source": null,
+        "series": "Bonsai Trees"
+    },
+    {
+        "name": "Holly Bonsai",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Bonsai Trees"
+    },
+    {
+        "name": "Jasmine Bonsai",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Bonsai Trees"
+    },
+    {
+        "name": "Maple Bonsai",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1700,
+        "source": null,
+        "series": "Bonsai Trees"
+    },
+    {
+        "name": "Plum Bonsai",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1900,
+        "source": "Lottery",
+        "series": "Bonsai Trees"
+    },
+    {
+        "name": "Quince Bonsai",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Bonsai Trees"
+    },
+    {
+        "name": "Aloe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "Bromeliaceae",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "Caladium",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "Coconut Palm",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "Corn Plant",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "Croton",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "Dracaena",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2000,
+        "source": "Lottery",
+        "series": "House Plants"
+    },
+    {
+        "name": "Fan Palm",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "Lady Palm",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "Pachira",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "Pothos",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "Rubber Tree",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1300,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "Snake Plant",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "Weeping Fig",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "House Plants"
+    },
+    {
+        "name": "CD Player",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1600,
+        "source": null,
+        "series": "Stereos"
+    },
+    {
+        "name": "Dice Stereo",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2150,
+        "source": "Redd",
+        "series": "Stereos"
+    },
+    {
+        "name": "Gold Stereo",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2640,
+        "source": null,
+        "series": "Stereos"
+    },
+    {
+        "name": "Hi-Fi Stereo",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 24000,
+        "source": "Lottery",
+        "series": "Stereos"
+    },
+    {
+        "name": "High-End Stereo",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2750,
+        "source": "Redd",
+        "series": "Stereos"
+    },
+    {
+        "name": "Jukebox",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3850,
+        "source": "Lottery",
+        "series": "Stereos"
+    },
+    {
+        "name": "Red Boom Box",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1500,
+        "source": null,
+        "series": "Stereos"
+    },
+    {
+        "name": "Phonograph",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1840,
+        "source": null,
+        "series": "Stereos"
+    },
+    {
+        "name": "Reel-to-Reel",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2000,
+        "source": null,
+        "series": "Stereos"
+    },
+    {
+        "name": "Retro Stereo",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2160,
+        "source": null,
+        "series": "Stereos"
+    },
+    {
+        "name": "Tape Deck",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 700,
+        "source": null,
+        "series": "Stereos"
+    },
+    {
+        "name": "Turntable",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2580,
+        "source": "Redd",
+        "series": "Stereos"
+    },
+    {
+        "name": "White Boom Box",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1500,
+        "source": null,
+        "series": "Stereos"
+    },
+    {
+        "name": "Amazing Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": "Redd",
+        "series": "Paintings"
+    },
+    {
+        "name": "Basic Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": null,
+        "series": "Paintings"
+    },
+    {
+        "name": "Classic Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": null,
+        "series": "Paintings"
+    },
+    {
+        "name": "Common Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": "Redd",
+        "series": "Paintings"
+    },
+    {
+        "name": "Dainty Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": "Redd",
+        "series": "Paintings"
+    },
+    {
+        "name": "Famous Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": "Redd",
+        "series": "Paintings"
+    },
+    {
+        "name": "Fine Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": null,
+        "series": "Paintings"
+    },
+    {
+        "name": "Flowery Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": "Redd",
+        "series": "Paintings"
+    },
+    {
+        "name": "Moving Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": "Redd",
+        "series": "Paintings"
+    },
+    {
+        "name": "Perfect Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": null,
+        "series": "Paintings"
+    },
+    {
+        "name": "Quaint Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": "Redd",
+        "series": "Paintings"
+    },
+    {
+        "name": "Rare Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": null,
+        "series": "Paintings"
+    },
+    {
+        "name": "Scary Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": "Redd",
+        "series": "Paintings"
+    },
+    {
+        "name": "Strange Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": null,
+        "series": "Paintings"
+    },
+    {
+        "name": "Worthy Painting",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1960,
+        "source": null,
+        "series": "Paintings"
+    },
+    {
+        "name": "Beach Chair",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Island Items"
+    },
+    {
+        "name": "Beach Table",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Island Items"
+    },
+    {
+        "name": "Diver Dan",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Island Items"
+    },
+    {
+        "name": "Life Ring",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Island Items"
+    },
+    {
+        "name": "Snowcone Machine",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Island Items"
+    },
+    {
+        "name": "Surfboard",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Island Items"
+    },
+    {
+        "name": "Treasure Chest",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Island Items"
+    },
+    {
+        "name": "Ukulele",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Island Items"
+    },
+    {
+        "name": "Wave Breaker",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Island Items"
+    },
+    {
+        "name": "Arc de Triomphe",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Chinese Lion",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Chinese Lioness",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Compass",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Fishing Bear",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Lady Liberty",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Manekin Pis",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Matryoshka",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Merlion",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Mermaid Statue",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Moai Statue",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Mouth of Truth",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Pagoda",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Plate Armor",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Shogi Piece",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Stone Coin",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Tiger Bobblehead",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Tokyo Tower",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Tower of Pisa",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Tribal Mask",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "Gulliver's Items"
+    },
+    {
+        "name": "Aerobics Radio",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Morning Aerobics gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Angler Trophy",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Summer Fishing Tournament gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Autumn Medal",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Fall Sports Fair gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Backpack",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Summer campers",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Birthday Cake",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Birthday gift from mom",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Bonfire",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Summer campers",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Bottle Rocket",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Fourth of July gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Bottled Ship",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Explorer's Day Gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Campfire",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Summer campers",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Chocolates",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Lighthouse Watching Gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Chowder",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Igloo resident",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Cooler",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Summer campers",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Cornucopia",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Thanksgiving gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Crab Stew",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Igloo resident",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Dolly",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Toy Day gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Fireplace",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Igloo resident",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Fishing Trophy",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Fall Fishing Tournament gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Kayak",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Summer campers",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Lantern",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Summer campers",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Lovely Phone",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Mother's Day Gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Mailbox",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Save 100,000,000 in P.O. Savings",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Miniature Car",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Toy Day gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Moon",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Harvest Moon gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Mountain Bike",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Summer campers",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Noisemaker",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "New Year's Eve gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Piggy Bank",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Save 10,000,000 in P.O. Savings",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Propane Stove",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Summer campers",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Sleeping Bag",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Summer campers",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Sleigh",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Igloo resident",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Snow Bunny",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Igloo resident",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Snowboard",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Igloo resident",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Snowman",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Snow Day gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Spring Medal",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Spring Sports Fair gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Telescope",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Meteor Shower gift",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Tissue",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Save 100,000 in P.O. Savings",
+        "series": "Special Gifts"
+    },
+    {
+        "name": "Balloon Fight",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3000,
+        "source": null,
+        "series": "NES Games"
+    },
+    {
+        "name": "Baseball",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Animal Island",
+        "series": "NES Games"
+    },
+    {
+        "name": "Clu Clu Land",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3000,
+        "source": null,
+        "series": "NES Games"
+    },
+    {
+        "name": "Clu Clu Land D",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Animal Crossing e-Cards",
+        "series": "NES Games"
+    },
+    {
+        "name": "DK Jr Math",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3000,
+        "source": null,
+        "series": "NES Games"
+    },
+    {
+        "name": "Donkey Kong",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3000,
+        "source": null,
+        "series": "NES Games"
+    },
+    {
+        "name": "Donkey Kong 3",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Animal Crossing e-Cards",
+        "series": "NES Games"
+    },
+    {
+        "name": "Donkey Kong Jr.",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Nintendo password promotion",
+        "series": "NES Games"
+    },
+    {
+        "name": "Excitebike",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3000,
+        "source": null,
+        "series": "NES Games"
+    },
+    {
+        "name": "Golf",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3000,
+        "source": "Redd",
+        "series": "NES Games"
+    },
+    {
+        "name": "NES Console",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3000,
+        "source": "Redd",
+        "series": "NES Games"
+    },
+    {
+        "name": "Pinball",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3000,
+        "source": null,
+        "series": "NES Games"
+    },
+    {
+        "name": "Punch-Out",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": null,
+        "series": "NES Games"
+    },
+    {
+        "name": "Soccer",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Nintendo password promotion",
+        "series": "NES Games"
+    },
+    {
+        "name": "Super Tortimer",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "April Fool's Day gift",
+        "series": "NES Games"
+    },
+    {
+        "name": "Tennis",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 3000,
+        "source": null,
+        "series": "NES Games"
+    },
+    {
+        "name": "Wario's Woods",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Animal Island",
+        "series": "NES Games"
+    },
+    {
+        "name": "Cosmos Model 1",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 910,
+        "source": "Groundhog Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Cosmos Model 2",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 910,
+        "source": "Groundhog Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Cosmos Model 3",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 910,
+        "source": "Groundhog Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Dirt Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Models"
+    },
+    {
+        "name": "Dump Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Spring Cleaning gift",
+        "series": "Models"
+    },
+    {
+        "name": "Grass Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1200,
+        "source": null,
+        "series": "Models"
+    },
+    {
+        "name": "House Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get 70,000 points from the HRA",
+        "series": "Models"
+    },
+    {
+        "name": "Igloo Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Igloo resident",
+        "series": "Models"
+    },
+    {
+        "name": "Katrina's Tent",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Halloween gift",
+        "series": "Models"
+    },
+    {
+        "name": "Lighthouse Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Lighthouse gift",
+        "series": "Models"
+    },
+    {
+        "name": "Locomotive Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Father's Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Manor Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get 100,000 points from the HRA",
+        "series": "Models"
+    },
+    {
+        "name": "Market Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Sale Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Museum Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Complete the museum's galleries",
+        "series": "Models"
+    },
+    {
+        "name": "Pansy Model 1",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 930,
+        "source": "Groundhog Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Pansy Model 2",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 930,
+        "source": "Groundhog Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Pansy Model 3",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 930,
+        "source": "Groundhog Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Pink Tree Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": "Cherry Blossom Festival gift",
+        "series": "Models"
+    },
+    {
+        "name": "Police Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Officer's Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Post Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Save 999,999,999 in P.O. Savings",
+        "series": "Models"
+    },
+    {
+        "name": "Shop Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Labor Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Snowy Tree Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Igloo resident",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 1",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 2",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 3",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 4",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 5",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 6",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 7",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 8",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 9",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 10",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 11",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 12",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 13",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 14",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Station Model 15",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "\"Your Hometown Day\" gift",
+        "series": "Models"
+    },
+    {
+        "name": "Tailor Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Graduation Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Tent Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Get from Summer campers",
+        "series": "Models"
+    },
+    {
+        "name": "Track Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 1400,
+        "source": null,
+        "series": "Models"
+    },
+    {
+        "name": "Train Car Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 2500,
+        "source": null,
+        "series": "Models"
+    },
+    {
+        "name": "Tree Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Nature Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Tulip Model 1",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 940,
+        "source": "Groundhog Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Tulip Model 2",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 940,
+        "source": "Groundhog Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Tulip Model 3",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 940,
+        "source": "Groundhog Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Weed Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": 820,
+        "source": "Founder's Day gift",
+        "series": "Models"
+    },
+    {
+        "name": "Well Model",
+        "category": "furniture",
+        "game": "gamecube",
+        "bells": null,
+        "source": "Mayor's Day gift",
+        "series": "Models"
+    }
+]

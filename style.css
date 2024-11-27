@@ -63,6 +63,7 @@
     padding: 10px 15px;
     font-weight: bold;
     transition: background-color 0.3s;
+    display: inline-block;
   }
   
   .navbar a:hover {
@@ -114,25 +115,90 @@
     margin-top: 20px;
   }
   
-  /* Barra de búsqueda */
-  .search-bar {
-    margin: 20px auto;
-    width: 100%;
-    max-width: 500px;
-    display: flex;
-    justify-content: center;
+  #local-search-input {
+    margin: 20px auto; /* Espaciado superior/inferior y centrado */
+    padding: 10px 15px;
+    width: 80%; /* Ajustar ancho para una buena proporción */
+    font-size: 14px;
+    border: 2px solid #d0a97b;
+    border-radius: 8px;
+    outline: none;
+    background-color: #fffaf0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: block;
   }
   
-  .search-bar input {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 25px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    outline: none;
+  #local-search-input:focus {
+    border-color: #f1dcbf;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
+  
+
+/* Contenedor de búsqueda global */
+#global-search-input {
+  margin-bottom: 20px;
+  padding: 12px 15px;
+  width: 60%; /* Reducir el ancho para que esté más centrado */
+  font-size: 16px;
+  border: 2px solid #d0a97b;
+  border-radius: 8px;
+  outline: none;
+  background-color: #fffaf0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin-left: auto; /* Centrar horizontalmente */
+  margin-right: auto;
+  display: block;
+}
+
+#global-search-input:focus {
+  border-color: #f1dcbf;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedor de resultados */
+.search-results {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 2px solid #d0a97b;
+  background-color: #fffaf0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Reducir el ancho para centrar */
+  margin-left: auto; /* Centrar horizontalmente */
+  margin-right: auto;
+  display: block;
+}
+
+/* Resultados individuales */
+.search-result {
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border: 1px solid #d0a97b;
+  background-color: #fdf8e4;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: center; /* Centramos el contenido */
+}
+
+.search-result:hover {
+  background-color: #f1dcbf;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hipervínculos dentro de los resultados */
+.search-result a {
+  color: #3498db;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.search-result a:hover {
+  text-decoration: underline;
+}
+
+
   
   /* Botones de juegos */
   .game-buttons {
@@ -373,6 +439,30 @@
 .golden-button:hover {
   transform: scale(1.05);
 }
+
+/* Resaltado inicial */
+.item.highlight td {
+  background-color: #ffeb3b !important; /* Amarillo brillante */
+  border: 2px solid #d4af37 !important; /* Borde dorado */
+  transition: background-color 1s ease, border-color 1s ease !important; /* Transición suave */
+}
+
+/* Desvanecimiento del resaltado */
+.item.fade-highlight td {
+  background-color: #fff !important; /* Regresar a blanco */
+  border-color: #d0a97b !important; /* Regresar al borde original */
+}
+
+/* Animación del cierre del área de resultados */
+.closing {
+  max-height: 0 !important;
+  opacity: 0 !important;
+  overflow: hidden !important;
+  transition: all 0.8s ease !important; /* Transición más larga y suave */
+}
+
+
+
 
 
 
